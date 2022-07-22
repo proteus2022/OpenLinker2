@@ -91,11 +91,11 @@ const config = {
               to: 'https://cipher.kuizuo.cn',
             },
             {
-              label: '愧怍在线工具',
+              label: 'OpenLinker在线工具',
               to: 'https://tools.kuizuo.cn',
             },
             {
-              label: '愧怍网盘',
+              label: 'OpenLinker网盘',
               to: 'https://pan.kuizuo.cn',
             },
           ],
@@ -254,8 +254,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: 'OpenLinker',
+          copyright: `Copyright © ${new Date().getFullYear()} OpenLinker Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       }
     ],

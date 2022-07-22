@@ -42,7 +42,7 @@ function Hero() {
       <div className={styles.bloghome__intro}>
         <animated.div style={animatedTexts[0]} className={styles.hero_text}>
           Hello! 我是
-          <span className={styles.intro__name}>愧怍</span>
+          <span className={styles.intro__name}>OpenLinker</span>
         </animated.div>
         <animated.p style={animatedTexts[1]}>
           <Translate

@@ -45,11 +45,11 @@ export const Tags: Record<TagType, Tag> = {
 
 const Projects: Project[] = [
   {
-    title: '愧怍的小站',
-    description: '基于Docusaurus v2 静态网站生成器实现个人博客',
+    title: 'OpenLinker',
+    description: '基于Docusaurus v2 静态网站生成器实现个人网站',
     preview: 'https://img.kuizuo.cn/blog.png',
-    website: 'https://kuizuo.cn',
-    source: 'https://github.com/kuizuo/blog',
+    website: 'https://openlinker.cn',
+    source: 'https://github.com/proteus2022/OpenLinker2/blog/',
     tags: ['opensource', 'design', 'favorite'],
   },
   {
@@ -101,7 +101,7 @@ const Projects: Project[] = [
     tags: ['opensource', 'javascript'],
   },
   {
-    title: '愧怍在线工具',
+    title: 'OpenLinker在线工具',
     description: '基于React与MUI组件库编写的在线工具网站',
     preview: 'https://img.kuizuo.cn/tools.png',
     website: 'http://tools.kuizuo.cn',

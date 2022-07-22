@@ -15,7 +15,7 @@ export const Friends: Friend[] = [
     avatar: require('./avatar/zxuqian.png'),
   },
   {
-    title: '愧怍',
+    title: 'OpenLinker',
     description: '现在网站架构是从这个老师网站上改的',
     website: 'https://kuizuo.cn/',
     avatar: require('./avatar/mas0n.png'),

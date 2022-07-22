@@ -37,7 +37,7 @@ export function BlogUser({ count, isNavbar = false }: { count?: Count; isNavbar?
       </Link>
       <div>
         <Link className='bloginfo__name' href='about'>
-          愧怍
+          OpenLinker
         </Link>
       </div>
       <div className='bloginfo__description'>不是巅峰时的信仰，而是黄昏时的追逐</div>

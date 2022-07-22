@@ -1,6 +1,6 @@
 {
   "title": {
-    "message": "愧怍",
+    "message": "OpenLinker",
     "description": "The title in the navbar"
   },
   "item.label.标签": {
@@ -39,8 +39,8 @@
     "message": "CyberChef在线加解密",
     "description": "Navbar item with label CyberChef在线加解密"
   },
-  "item.label.愧怍在线工具": {
-    "message": "愧怍在线工具",
-    "description": "Navbar item with label 愧怍在线工具"
+  "item.label.OpenLinker在线工具": {
+    "message": "OpenLinker在线工具",
+    "description": "Navbar item with label OpenLinker在线工具"
   }
 }

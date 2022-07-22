@@ -7,9 +7,9 @@ tags: [blog, docusaurus, project]
 sticky: true
 ---
 
-博客地址: [愧怍 (kuizuo.cn)](https://kuizuo.cn/)
+博客地址: [OpenLinker (kuizuo.cn)](https://kuizuo.cn/)
 
-源码地址：[kuizuo/blog: 愧怍的个人博客 (github.com)](https://github.com/kuizuo/blog)
+源码地址：[kuizuo/blog: OpenLinker的个人博客 (github.com)](https://github.com/kuizuo/blog)
 
 时隔近半年没好好整理文章，博客也写的不像个人样。:joy:
 
