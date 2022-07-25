@@ -135,11 +135,11 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kuizuo',
+              href: 'https://github.com/proteus2022',
             },
             {
               label: '掘金',
-              href: 'https://juejin.cn/user/1565318510545901',
+              href: 'https://csdn.net/ss_302',
             },
           ],
         },
