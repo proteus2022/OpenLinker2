@@ -190,7 +190,21 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/wch.png',
         href: 'https://www.wch.cn/',
         tags: [''],
-      },             
+      },   
+      {
+        name: '华大',
+        desc: 'MCU、安全',
+        logo: '/img/website/hdsc.png',
+        href: 'https://www.hdsc.com.cn/',
+        tags: [''],
+      },   
+      {
+        name: '乐鑫',
+        desc: 'MCU、蓝牙、WIFI',
+        logo: '/img/website/lexin.png',
+        href: 'https://www.espressif.com.cn/',
+        tags: [''],
+      },                         
     ],
   },
 
