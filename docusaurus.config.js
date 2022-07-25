@@ -50,7 +50,7 @@ const config = {
           position: 'right',
           items: [
             {
-              label: '技术笔记',
+              label: '开源项目',
               to: 'docs/skill/',
             },
             {
@@ -113,7 +113,7 @@ const config = {
               to: '/#homepage_blogs',
             },
             {
-              label: '技术笔记',
+              label: '开源项目',
               to: 'docs/skill',
             },
             {

@@ -3,7 +3,7 @@ const sidebars = {
   skill: [
     'skill/introduction',
     {
-      label: 'Vue',
+      label: 'OpenLinker_NUC980',
       type: 'category',
       link: {
         type: 'generated-index',
@@ -13,7 +13,7 @@ const sidebars = {
         'skill/vue/vue-reactive-data-array',
         'skill/vue/vue-reactive-data-basic-type',
         'skill/vue/vue-component',*/
-        'skill/vue/pinia',
+        'skill/OpenLinker_NUC980/pinia',
       ],
     },/*
     {
