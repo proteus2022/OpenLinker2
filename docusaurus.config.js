@@ -46,7 +46,7 @@ const config = {
           to: 'website',
         },
         {
-          label: '开源项目',
+          label: '文档中心',
           position: 'right',
           items: [
             {
@@ -70,7 +70,7 @@ const config = {
           position: 'right',
         },
         {
-          label: '项目',
+          label: '开源项目',
           position: 'right',
           to: 'project',
         },
@@ -199,12 +199,10 @@ const config = {
       playgroundPosition: 'top',
     }, 
     socials: {
-      github: 'https://github.com/kuizuo',
-      twitter: 'https://twitter.com/kuizuo',
-      juejin: 'https://juejin.cn/user/1565318510545901',
-      csdn: 'https://blog.csdn.net/kuizuo12',
-      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-      cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
+      github: 'https://github.com/proteus2022',
+      csdn: 'https://blog.csdn.net/ss_302',
+      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=149350110&amp;site=qq',
+      wx: 'https://music.163.com/#/user/home?id=1333010742',
     },
     // googleAnalytics: {
     //   trackingID: "UA-118572241-1",

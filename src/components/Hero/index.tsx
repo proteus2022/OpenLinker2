@@ -41,7 +41,7 @@ function Hero() {
     <animated.div className={styles.hero}>
       <div className={styles.bloghome__intro}>
         <animated.div style={animatedTexts[0]} className={styles.hero_text}>
-          Hello! 我是
+          欢迎访问 
           <span className={styles.intro__name}>OpenLinker</span>
         </animated.div>
         <animated.p style={animatedTexts[1]}>
@@ -72,7 +72,6 @@ function Hero() {
               ),
             }}
           >
-            {`在这里你能了解到各类实战开发的所遇到的问题，帮助你在学习的过程了解最新的技术栈，并希望我的个人经历对你有所启发。`}
           </Translate>
         </animated.p>
         {/* {currentLocale === 'zh-CN' && (
@@ -99,34 +98,22 @@ function Hero() {
 export function SocialLinks({ animatedProps, ...props }) {
   const { siteConfig } = useDocusaurusContext()
   const { themeConfig } = siteConfig
-  const socials = themeConfig.socials as { github: string; twitter: string; juejin: string; csdn: string; qq: string; wx: string; cloudmusic: string }
+  const socials = themeConfig.socials as { github: string;csdn: string; qq: string; wx: string; }
 
   return (
     <animated.div className={styles.social__links} style={animatedProps}>
-      <a href='./rss.xml' target='_blank'>
-        <RssIcon />
-      </a>
       <a href={socials.github} target='_blank'>
         <GithubIcon />
       </a>
-      <a href={socials.juejin} target='_blank'>
-        <JuejinIcon />
-      </a>
-      {/* <a href='https://blog.csdn.net/kuizuo12' target='_blank'>
+      <a href={socials.csdn} target='_blank'>
         <CsdnIcon />
-      </a> */}
+      </a> 
       <a href={socials.qq} target='_blank'>
         <QqIcon />
       </a>
-      {/* <a href='' target='_blank'>
+      <a href={socials.wx} target='_blank'>
         <WxIcon />
-      </a> */}
-      <a href={socials.twitter} target='_blank'>
-        <TwitterIcon />
-      </a>
-      <a href={socials.cloudmusic} target='_blank'>
-        <CloudMusicIcon />
-      </a>
+      </a> 
     </animated.div>
   )
 }
