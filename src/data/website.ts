@@ -156,7 +156,41 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.ti.com/',
         tags: [''],
       },
-
+      {
+        name: 'Infineon',
+        desc: 'MCU、触摸、存储',
+        logo: '/img/website/infineon.png',
+        href: 'https://www.infineon.com/cms/cn/',
+        tags: [''],
+      },
+      {
+        name: 'nuvoton',
+        desc: 'MCU、MPU',
+        logo: '/img/website/nuvoton.png',
+        href: 'https://www.nuvoton.com.cn/',
+        tags: [''],
+      },
+      {
+        name: '兆易创新',
+        desc: 'MCU、存储',
+        logo: '/img/website/gd32.png',
+        href: 'https://www.gd32mcu.com/',
+        tags: [''],
+      },      
+      {
+        name: '国民技术',
+        desc: 'MCU',
+        logo: '/img/website/nation.png',
+        href: 'https://www.nationstech.com/',
+        tags: [''],
+      },     
+      {
+        name: '南京沁恒',
+        desc: 'MCU、接口',
+        logo: '/img/website/wch.png',
+        href: 'https://www.wch.cn/',
+        tags: [''],
+      },             
     ],
   },
 
