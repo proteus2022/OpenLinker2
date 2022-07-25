@@ -45,16 +45,16 @@ export const Tags: Record<TagType, Tag> = {
 
 const Projects: Project[] = [
   {
-    title: 'OpenLinker',
-    description: '基于Docusaurus v2 静态网站生成器实现个人网站',
-    preview: 'https://img.kuizuo.cn/blog.png',
-    website: 'https://openlinker.cn',
-    source: 'https://github.com/proteus2022/OpenLinker2/blog/',
-    tags: ['opensource', 'design', 'favorite'],
+    title: 'MCUBOOT',
+    description: '一个被广泛采用的BOOT开源项目，值得深度分析学习。',
+    preview: 'img/website/mcuboot.png',
+    website: 'https://www.mcuboot.com/',
+    source: 'https://github.com/mcu-tools/mcuboot',
+    tags: ['opensource'],
   },
   {
     title: 'kz-admin',
-    description: '基于NestJs + TypeScript + TypeORM + Redis + MySql + Vben Admin编写的一款前后端分离的权限管理系统',
+    description: '管理系统',
     preview: 'https://img.kuizuo.cn/kz-admin.png',
     website: 'https://admin.kuizuo.cn',
     source: 'https://github.com/kuizuo/kz-nest-admin',

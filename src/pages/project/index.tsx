@@ -23,8 +23,8 @@ import { useHistory, useLocation } from '@docusaurus/router'
 import styles from './styles.module.css'
 
 const TITLE = '项目展示'
-const DESCRIPTION = '以下项目均由本人开发，均可自由使用，部分开源。'
-const GITHUB_URL = 'https://github.com/kuizuo'
+const DESCRIPTION = ''
+const GITHUB_URL = 'https://github.com/proteus2022'
 
 type ProjectState = {
   scrollTopPosition: number
@@ -100,9 +100,7 @@ function ShowcaseHeader() {
     <section className='margin-top--lg margin-bottom--lg text--center'>
       <h1>{TITLE}</h1>
       <p>{DESCRIPTION}</p>
-      <a className='button button--primary' href={GITHUB_URL} target='_blank' rel='noreferrer'>
-        前往 Github 克隆项目
-      </a>
+
     </section>
   )
 }
