@@ -60,12 +60,12 @@ const config = {
           ],
         },
          {
-         label: '标签',
+         label: '博客标签',
           to: 'tags',
           position: 'right',
         },
         {
-          label: '归档',
+          label: '博客归档',
           to: 'archive',
           position: 'right',
         },
@@ -242,7 +242,7 @@ const config = {
         path: 'blog',
         routeBasePath: '/',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/proteus2022/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogSidebarTitle: '近期文章',
         blogSidebarCount: 10,

@@ -152,7 +152,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'TI',
         desc: 'MCU、模拟、电源',
-        logo: '/img/website/ti.png',
+        logo: '/img/website/tisemi.png',
         href: 'https://www.ti.com/',
         tags: [''],
       },
@@ -187,7 +187,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: '南京沁恒',
         desc: 'MCU、接口',
-        logo: '/img/website/wch.png',
+        logo: '/img/website/wchsemi.png',
         href: 'https://www.wch.cn/',
         tags: [''],
       },   
