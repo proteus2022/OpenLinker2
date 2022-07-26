@@ -43,7 +43,7 @@ const Projects = [
         description: '嵌入式相关资源链接，分类清晰，资源丰富。',
         preview: 'img/website/embededallin.png',
         website: 'https://gitee.com/zhengnianli/EmbedSummary',
-        source: 'https://gitee.com/zhengnianli/EmbedSummary',
+        //source: 'https://gitee.com/zhengnianli/EmbedSummary',
         tags: ['opensource', 'favorite'],
     },
     {
@@ -62,6 +62,13 @@ const Projects = [
         source: 'https://gitee.com/microbit',
         tags: ['opensource'],
     },
+    {
+        title: 'Arm Education',
+        description: '资料很详细，特别是PPT，值得借鉴。',
+        preview: 'img/website/armeducation.png',
+        website: 'https://github.com/arm-university',
+        tags: ['opensource'],
+    },    
     {
         title: 'LuatOS开源',
         description: '基于lua的开源系统，支持多种硬件平台',
@@ -99,15 +106,23 @@ const Projects = [
         description: '开源GPS自行车码表，LVGL应用',
         preview: 'img/website/xtrack.png',
         website: 'https://github.com/FASTSHIFT/X-TRACK',
-        source: 'https://github.com/FASTSHIFT/X-TRACK',
+        //source: 'https://github.com/FASTSHIFT/X-TRACK',
         tags: ['opensource', 'favorite'],
-    },  
+    },
+    {
+        title: '卡西欧腕表复刻',
+        description: '开源腕表方案，了解下其低功耗处理',
+        preview: 'img/website/casio.png',
+        website: 'https://github.com/joeycastillo/Sensor-Watch',
+        //source: 'https://github.com/joeycastillo/Sensor-Watch',
+        tags: ['opensource'],
+    },     
     {
         title: 'SFUD',
         description: '一款开源的串行 SPI Flash 通用驱动库。',
         preview: 'img/website/sfud.png',
         website: 'https://github.com/armink/SFUD',
-        source: 'https://github.com/armink/SFUD',
+        //source: 'https://github.com/armink/SFUD',
         tags: ['opensource'],
     },  
     {
@@ -123,9 +138,25 @@ const Projects = [
         description: '自己动手写文件系统、操作系统，收费视频课程在CSDN课堂。',
         preview: 'img/website/zijidongshou.png',
         website: 'https://www.yuque.com/lishutong-docs',
-        source: 'https://www.yuque.com/lishutong-docs',
+        //source: 'https://www.yuque.com/lishutong-docs',
         tags: ['opensource'],
-    },     
+    },   
+    {
+        title: 'avr-crypto-lib',
+        description: '各种加密算法实现。',
+        preview: 'img/website/avrcrypto.png',
+        website: 'https://wiki.das-labor.org/w/AVR-Crypto-Lib/en',
+        source: 'https://github.com/cantora/avr-crypto-lib',
+        tags: ['opensource'],
+    }, 
+    {
+        title: 'C library and data structures',
+        description: '各种开源C库和数据结构。',
+        preview: 'img/website/clib.png',
+        website: 'https://github.com/tezc/sc',
+        //source: 'https://github.com/tezc/sc',
+        tags: ['opensource'],
+    },             
 ];
 exports.TagList = Object.keys(exports.Tags);
 function sortProject() {
