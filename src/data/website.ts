@@ -207,7 +207,67 @@ export const websiteData: WebsiteCategory[] = [
       },                         
     ],
   },
-
+  {
+    name: '开发板厂家',
+    websites: [
+      {
+        name: '野火',
+        desc: '板子不错，源码一般。',
+        logo: '/img/website/embedfire.png',
+        href: 'https://embedfire.com/',
+        tags: ['开发板'],
+      },
+      {
+        name: '正点原子',
+        desc: '板子不错，视频丰富。',
+        logo: '/img/website/alientek.png',
+        href: 'http://www.alientek.com/',
+        tags: ['开发板'],
+      },
+      {
+        name: '安富莱',
+        desc: '板子不错，技术文档详尽。',
+        logo: '/img/website/armfly.png',
+        href: 'http://www.anfulai.cn/',
+        tags: ['开发板'],
+      },    
+      {
+        name: '百问网',
+        desc: '韦东山发力了。',
+        logo: '/img/website/100ask.png',
+        href: 'https://www.100ask.net/',
+        tags: ['开发板'],
+      },      
+      {
+        name: '飞凌嵌入式',
+        desc: '少有的北方厂家，MPU为主。',
+        logo: '/img/website/forlinx.png',
+        href: 'https://forlinx.com/',
+        tags: ['开发板'],
+      },    
+      {
+        name: '米尔科技',
+        desc: 'MPU为主，板子不错。',
+        logo: '/img/website/myirtech.png',
+        href: 'http://www.myir-tech.com/',
+        tags: ['开发板'],
+      },  
+      {
+        name: '万象奥科',
+        desc: 'MPU为主，瑞萨、Microchip、NXP。',
+        logo: '/img/website/vanxoak.png',
+        href: 'http://www.vanxoak.com/',
+        tags: ['开发板'],
+      },    
+      {
+        name: 'Firefly',
+        desc: 'RockChip + Android。',
+        logo: '/img/website/firefly.png',
+        href: 'https://www.t-firefly.com/',
+        tags: ['开发板'],
+      },                             
+    ],
+  },
   {
     name: '字体图标',
     websites: [
