@@ -25,7 +25,7 @@ const friends: Website[] = Friends.map((f) => {
 export const websiteData: WebsiteCategory[] = [
 
   {
-    name: '代码托管',
+    name: '常用网站',
     websites: [
       {
         name: 'GitHub',
@@ -42,26 +42,47 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['代码托管', '项目源码'],
       },
       {
+        name: '立创商城',
+        desc: '物料询价、采购',
+        logo: '/img/website/lcsc.png',
+        href: 'https://www.szlcsc.com/',
+        tags: [''],
+      },   
+      {
+        name: '逆天PCB',
+        desc: '开源硬件工程、培训',
+        logo: '/img/website/ntpcb.png',
+        href: 'http://bbs.ntpcb.com/',
+        tags: [''],
+      },    
+      {
+        name: 'CNX Software',
+        desc: '嵌入式系统新闻',
+        logo: '/img/website/cnxsoftware.png',
+        href: 'https://www.cnx-software.com/',
+        tags: [''],
+      },           
+     /*  {
         name: 'Gitlab',
         desc: '更快地交付安全代码，部署到任何云，并推动业务成果。',
         logo: 'https://gitlab.com/uploads/-/system/group/avatar/6543/logo-extra-whitespace.png?width=64',
         href: 'https://gitlab.com/',
         tags: ['代码托管', '项目源码'],
       },
-     /* {
+     {
         name: 'Vercel',
         desc: 'Vercel将最好的开发人员体验与对最终用户性能的执着关注相结合。',
         logo: 'https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/57x57.png',
         href: 'https://vercel.com/',
         tags: ['代码托管'],
-      },*/
+      },
       {
         name: 'Netlify',
         desc: 'Netlify 是一家提供静态网站托管的云平台，支持从 Github, GitLab, Bitbucket 等代码仓库中自动拉取代码 然后进行项目打包和部署等功能。',
         logo: 'https://www.netlify.com/v3/static/favicon/apple-touch-icon.png',
         href: 'https://www.netlify.com/',
         tags: ['代码托管'],
-      },
+      },*/
     ],
   },  
   {
