@@ -11,7 +11,7 @@ const config = {
   url: 'https://openlinker.cn',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'openlinker',
   projectName: 'blog',
   tagline: '记录所学知识，领略编程之美',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -46,6 +46,11 @@ const config = {
           to: 'website',
         },
         {
+          label: '开源分享',
+          position: 'right',
+          to: 'project',
+        },        
+        {
           label: '文档中心',
           position: 'right',
           items: [
@@ -69,11 +74,7 @@ const config = {
           to: 'archive',
           position: 'right',
         },
-        {
-          label: '开源项目',
-          position: 'right',
-          to: 'project',
-        },
+
 /*        {
           label: '小工具',
           position: 'right',
