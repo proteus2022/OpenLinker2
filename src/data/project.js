@@ -110,6 +110,14 @@ const Projects = [
         tags: ['opensource', 'favorite'],
     },
     {
+        title: 'Open-Smartwatch',
+        description: '基于Esp32的开源手表项目',
+        preview: 'img/website/opensmartwatch.png',
+        website: 'https://open-smartwatch.github.io/',
+        source: 'https://github.com/Open-Smartwatch',
+        tags: ['opensource', 'favorite'],
+    },    
+    {
         title: '卡西欧腕表复刻',
         description: '开源腕表方案，了解下其低功耗处理',
         preview: 'img/website/casio.png',
@@ -156,7 +164,15 @@ const Projects = [
         website: 'https://github.com/tezc/sc',
         //source: 'https://github.com/tezc/sc',
         tags: ['opensource'],
-    },             
+    },
+    {
+        title: 'WEMOS',
+        description: '基于Micropython、Esp32的开源项目',
+        preview: 'img/website/wemos.png',
+        website: 'https://www.wemos.cc/en/latest/index.html',
+        source: 'https://github.com/wemos',
+        tags: ['opensource'],
+    },                 
 ];
 exports.TagList = Object.keys(exports.Tags);
 function sortProject() {
