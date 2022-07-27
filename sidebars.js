@@ -9,13 +9,21 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
-/*        'skill/vue/vue-reactive-data-object',
-        'skill/vue/vue-reactive-data-array',
-        'skill/vue/vue-reactive-data-basic-type',
-        'skill/vue/vue-component',*/
         'skill/OpenLinker_NUC980/pinia',
       ],
-    },/*
+    },
+    {
+      label: '开发板配件',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'skill/开发板配件/3.5寸LCD+电容触摸',
+        'skill/开发板配件/5寸LCD+电容触摸',
+      ],
+    },    
+    /*
     {
       label: 'React',
       type: 'category',

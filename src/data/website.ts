@@ -542,7 +542,46 @@ export const websiteData: WebsiteCategory[] = [
       href: 'http://www.manthink.cn/',
       tags: [''],
     },  
-
+    //广州
+    {
+      name: '鲁邦通',
+      desc: '路由、网关',
+      logo: '/img/website/robustel.png',
+      href: 'http://www.robustel.com.cn/',
+      tags: [''],
+    },    
+    //杭州
+    {
+      name: '塔石',
+      desc: '',
+      logo: '/img/website/tastek.png',
+      href: 'https://www.tastek.cn/index.html',
+      tags: [''],
+    },        
+    //台湾
+    {
+      name: '研华',
+      desc: '',
+      logo: '/img/website/advantech.png',
+      href: 'https://www.advantech.com.cn/',
+      tags: [''],
+    },   
+    //苏州
+    {
+      name: '汇川',
+      desc: '',
+      logo: '/img/website/inovance.png',
+      href: 'https://www.inovance.com/hc/index',
+      tags: [''],
+    },     
+    //武汉
+    {
+      name: '慧联无限',
+      desc: '',
+      logo: '/img/website/easylinkin.png',
+      href: 'http://easylinkin.com/index.aspx',
+      tags: [''],
+    },               
     ],
   },  
   {
