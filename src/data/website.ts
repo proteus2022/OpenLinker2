@@ -42,6 +42,20 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['代码托管', '项目源码'],
       },
       {
+        name: 'Markdown',
+        desc: 'Markdown指南中文版',
+        logo: '/img/website/markdown.png',
+        href: 'https://www.markdown.xyz/',
+        tags: [''],
+      },       
+      {
+        name: 'MDX',
+        desc: '让Markdown步入组件时代',
+        logo: '/img/website/mdx.png',
+        href: 'https://www.mdxjs.cn/',
+        tags: [''],
+      },       
+      {
         name: 'CSDN',
         desc: '赞',
         logo: '/img/website/CSDN.png',
