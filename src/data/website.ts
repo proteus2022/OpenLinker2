@@ -657,8 +657,7 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/graphical-user-interfaces-for-nxp-microcontrollers:GRAPHICAL-USER-INTERFACES',
         tags: ['GUI'],
       },                                  
-    ],
-      
+    ],    
   },    
   {
     name: '字体图标',
