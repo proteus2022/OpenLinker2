@@ -1,7 +1,7 @@
 ---
 id: introduction
-title: 开发工具推荐
+title: 图书推荐
 slug: /tools
 ---
 
-本页为个人开发中使用到的一些开发工具。
+为大家推荐开发经典图书。

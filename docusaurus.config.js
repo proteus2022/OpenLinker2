@@ -59,7 +59,7 @@ const config = {
               to: 'docs/skill/',
             },
             {
-              label: '工具推荐',
+              label: '图书推荐',
               to: 'docs/tools/',
             },
           ],
