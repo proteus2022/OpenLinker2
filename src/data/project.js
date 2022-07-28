@@ -172,7 +172,60 @@ const Projects = [
         website: 'https://www.wemos.cc/en/latest/index.html',
         source: 'https://github.com/wemos',
         tags: ['opensource'],
-    },                 
+    },   
+    {
+        title: 'OLIMEX',
+        description: '国外开源开发板网站，包括ESP32和各ARM平台产品',
+        preview: 'img/website/olimex.png',
+        website: 'https://www.olimex.com/',
+        source: 'https://github.com/OLIMEX',
+        tags: ['opensource'],
+    },    
+    {
+        title: '小熊派',
+        description: '各自开发板开源项目',
+        preview: 'img/website/morixinguan.png',
+        website: 'https://blog.csdn.net/morixinguan',
+        source: 'https://gitee.com/morixinguan',    
+        tags: ['opensource'],
+    },     
+    {
+        title: 'ZINT',
+        description: '二维码及条形码的开源项目',
+        preview: 'img/website/zint.png',
+        website: 'https://www.zint.org.uk/',
+        source: 'https://github.com/zint/',    
+        tags: ['opensource'],
+    },                             
+ 
+    {
+        title: 'strongerHuang的嵌入式专栏',
+        description: '无OS的MCU软件管理和AT指令解析',
+        preview: 'img/website/moluotech.png',
+        website: 'https://gitee.com/moluo-tech',
+        tags: ['opensource'],
+    },    
+    {
+        title: 'Mculover666',
+        description: 'STM32 HAL库外设驱动库和多页显示框架',
+        preview: 'img/website/mculover666.png',
+        website: 'https://github.com/Mculover666',
+        tags: ['opensource'],
+    },  
+    {
+        title: '大橙子疯',
+        description: '单色LCD GUI库和轻量级菜单框架',
+        preview: 'img/website/constzpc.png',
+        website: 'https://gitee.com/const-zpc',
+        tags: ['opensource'],
+    },   
+    {
+        title: 'wujique',
+        description: 'stm32入门教程、驱动库、电阻触摸屏驱动',
+        preview: 'img/website/wujique.png',
+        website: 'https://github.com/wujique',
+        tags: ['opensource'],
+    },                             
 ];
 exports.TagList = Object.keys(exports.Tags);
 function sortProject() {

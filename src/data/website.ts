@@ -584,6 +584,82 @@ export const websiteData: WebsiteCategory[] = [
     },               
     ],
   },  
+  {   
+    name: '嵌入式GUI',
+    websites: [
+      {
+        name: 'LVGL',
+        desc: '轻量级、开源、发展迅速',
+        logo: '/img/website/lvgl.png',
+        href: 'https://lvgl.io/',
+        tags: ['GUI'],
+      },
+      {
+        name: 'AWTK',
+        desc: '国产、周立功推出的、赞',
+        logo: '/img/website/awtk.png',
+        href: 'https://awtk.zlg.cn/docs/',
+        tags: ['GUI'],
+      },       
+      {
+        name: 'Azure RTOS GUIX',
+        desc: '微软Thread X配套GUI组件',
+        logo: '/img/website/microsoft.png',
+        href: 'https://docs.microsoft.com/zh-cn/azure/rtos/guix/',
+        tags: ['GUI'],
+      },     
+      {
+        name: 'MiniGUI',
+        desc: '一款历史悠久的通用GUI',
+        logo: '/img/website/minigui.png',
+        href: 'https://minigui.fmsoft.cn/',
+        tags: ['GUI'],
+      },         
+      {
+        name: 'TouchGFX',
+        desc: '被ST收购，ST处理器上免费使用',
+        logo: '/img/website/touchgfx.png',
+        href: 'https://support.touchgfx.com/4.20/docs/introduction/welcome',
+        tags: ['GUI'],
+      }, 
+      {
+        name: 'Embedded Wizard',
+        desc: '收费，历史悠久',
+        logo: '/img/website/embeddedwizard.png',
+        href: 'https://www.embedded-wizard.de/',
+        tags: ['GUI'],
+      },       
+      {
+        name: 'emWin',
+        desc: 'Segger旗下收费GUI组件',
+        logo: '/img/website/segger.png',
+        href: 'https://www.segger.com/products/user-interface/emwin/',
+        tags: ['GUI'],
+      },        
+      {
+        name: 'Qt',
+        desc: '最著名的跨平台GUI',
+        logo: '/img/website/qt.png',
+        href: 'https://www.qt.io/',
+        tags: ['GUI'],
+      },          
+      {
+        name: 'MHGS',
+        desc: 'Microchip 处理器配套GUI组件',
+        logo: '/img/website/microchip.png',
+        href: 'https://www.microchip.com/en-us/tools-resources/configure/mplab-harmony/graphics-suite#',
+        tags: ['GUI'],
+      },        
+      {
+        name: 'NXP GUI',
+        desc: 'NXP 处理器配套GUI组件',
+        logo: '/img/website/nxp.png',
+        href: 'https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/graphical-user-interfaces-for-nxp-microcontrollers:GRAPHICAL-USER-INTERFACES',
+        tags: ['GUI'],
+      },                                  
+    ],
+      
+  },    
   {
     name: '字体图标',
     websites: [
