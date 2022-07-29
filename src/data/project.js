@@ -166,6 +166,14 @@ const Projects = [
         tags: ['opensource'],
     },
     {
+        title: 'Sipeed Maxi',
+        description: 'K210、全志开源项目',
+        preview: 'img/website/sipeed.png',
+        website: 'https://wiki.sipeed.com/',
+        source: 'https://github.com/sipeed',
+        tags: ['opensource'],
+    },       
+    {
         title: 'WEMOS',
         description: '基于Micropython、Esp32的开源项目',
         preview: 'img/website/wemos.png',

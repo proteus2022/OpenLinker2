@@ -42,6 +42,27 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['代码托管', '项目源码'],
       },
       {
+        name: 'Learn Git Branching',
+        desc: 'Git使用可视化教学',
+        logo: '/img/website/gitbranch.png',
+        href: 'https://learngitbranching.js.org/?locale=zh_CN',
+        tags: [''],
+      },       
+      {
+        name: '墨滴',
+        desc: 'Markdown Nice，一个好用的文章编辑平台',
+        logo: '/img/website/mdnice.png',
+        href: 'https://www.mdnice.com/',
+        tags: [''],
+      },     
+      {
+        name: 'JSON Visio',
+        desc: '可视化JSON编辑',
+        logo: '/img/website/jsonvisio.png',
+        href: 'https://jsonvisio.com/',
+        tags: [''],
+      },          
+      {
         name: 'Markdown',
         desc: 'Markdown指南中文版',
         logo: '/img/website/markdown.png',
