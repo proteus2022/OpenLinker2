@@ -243,7 +243,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'ST',
         desc: 'MCU、RFID',
-        logo: '/img/website/st.png',
+        logo: '/img/website/stsemi.png',
         href: 'https://www.st.com/',
         tags: [''],
       },

@@ -82,12 +82,12 @@ function Hero() {
           </animated.p>
         )} */}
         <SocialLinks animatedProps={animatedTexts[4]} />
-        {
+        {/*
           <animated.div style={animatedTexts[2]}>
             <Button isLink href={'./about'}>
               自我介绍
             </Button>
-          </animated.div>
+          </animated.div>*/
         }
       </div>
       <HeroMainImage />
@@ -111,9 +111,6 @@ export function SocialLinks({ animatedProps, ...props }) {
       <a href={socials.qq} target='_blank'>
         <QqIcon />
       </a>
-      <a href={socials.wx} target='_blank'>
-        <WxIcon />
-      </a> 
     </animated.div>
   )
 }
