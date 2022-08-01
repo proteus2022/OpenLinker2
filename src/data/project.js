@@ -55,6 +55,22 @@ const Projects = [
         tags: ['opensource'],
     },    
     {
+        title: 'Mbed OS',
+        description: 'Arm Mbed OS。',
+        preview: 'img/website/mbedos.png',
+        website: 'https://os.mbed.com/',
+        source: 'https://github.com/ARMmbed/mbed-os',
+        tags: ['opensource'],
+    },  
+    {
+        title: 'Zephyr OS',
+        description: 'the linux foundation OS。',
+        preview: 'img/website/zephyr.png',
+        website: 'https://www.zephyrproject.org/',
+        source: 'https://github.com/zephyrproject-rtos',
+        tags: ['opensource'],
+    },         
+    {
         title: 'MicroPython中文社区',
         description: 'micropthon中文论坛，microbit开源项目。',
         preview: 'img/website/micropython3.png',
