@@ -69,7 +69,15 @@ const Projects = [
         website: 'https://www.zephyrproject.org/',
         source: 'https://github.com/zephyrproject-rtos',
         tags: ['opensource'],
-    },         
+    },  
+    {
+        title: 'Azure ThreadX',
+        description: 'Microsoft 的一款 RTOS。',
+        preview: 'img/website/azurertos.png',
+        website: 'https://docs.microsoft.com/zh-CN/azure/rtos/',
+        source: 'https://github.com/azure-rtos/threadx',
+        tags: ['opensource'],
+    },             
     {
         title: 'MicroPython中文社区',
         description: 'micropthon中文论坛，microbit开源项目。',
@@ -249,7 +257,15 @@ const Projects = [
         preview: 'img/website/wujique.png',
         website: 'https://github.com/wujique',
         tags: ['opensource'],
-    },                             
+    },   
+    {
+        title: 'ImHex',
+        description: '一款开源的Hex编辑工具软件',
+        preview: 'img/website/imhex.png',
+        website: 'https://imhex.werwolv.net/',
+        source: 'https://github.com/WerWolv/ImHex',    
+        tags: ['opensource'],
+    },                                
 ];
 exports.TagList = Object.keys(exports.Tags);
 function sortProject() {
