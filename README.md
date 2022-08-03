@@ -3,8 +3,8 @@
 </h2>
 
 <p align="center">
-<a href="https://kuizuo.cn">🖥 Online Preview</a>
-<a href="https://kuizuo.cn"><img src="https://img.kuizuo.cn/blog.png" alt="Docusaurus"></a>
+<a href="https://openlinker.cn">🖥 Online Preview</a>
+<a href="https://openlinker.cn"><img src="https://img.openlinker.cn/blog.png" alt="Docusaurus"></a>
 </p>
 
 ## Introduction
@@ -20,8 +20,8 @@
 ## Install
 
 ```sh
-git clone https://github.com/kuizuo/blog.git
-cd blog
+git clone https://github.com/openlinker2/openlinker2.git
+cd openlinker2
 yarn
 yarn run start
 ```
@@ -34,4 +34,4 @@ npm build
 
 ## License
 
-[MIT licensed](https://github.com/kuizuo/blog/blob/main/LICENSE).
+[MIT licensed](https://github.com/openlinker2/blog/blob/main/LICENSE).

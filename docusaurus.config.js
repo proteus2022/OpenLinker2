@@ -189,11 +189,11 @@ const config = {
       jsLoader: 'matomo.js',
     }, 
     giscus: {             //blog评论功能
-      repo: 'kuizuo/blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+      repo: 'proteus2022/OpenLinker2',
+      repoId: 'R_kgDOHsvN3A',
       category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
-      mapping: 'title',
+      categoryId: 'DIC_kwDOHsvN3M4CQlv',
+      mapping: 'url',
       lang: 'zh-CN',
     }, 
     liveCodeBlock: {
