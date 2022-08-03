@@ -188,14 +188,14 @@ const config = {
       phpLoader: 'matomo.php',
       jsLoader: 'matomo.js',
     }, 
-    giscus: {             //blog评论功能
+    giscus: {   //blog评论
       repo: 'proteus2022/OpenLinker2',
       repoId: 'R_kgDOHsvN3A',
       category: 'General',
-      categoryId: 'DIC_kwDOHsvN3M4CQlv',
-      mapping: 'url',
+      categoryId: 'DIC_kwDOHsvN3M4CQlv_',
+      mapping: 'title',
       lang: 'zh-CN',
-    }, 
+    },    
     liveCodeBlock: {
       playgroundPosition: 'top',
     }, 
