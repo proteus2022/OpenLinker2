@@ -203,7 +203,24 @@ const sidebars = {
         'tools/开发类/软件开发图书',
         'tools/开发类/硬件开发图书',        
       ],
-    },      
+    },  
+    {
+      label: 'CISSP',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'tools/CISSP/域一：安全和风险管理',
+        'tools/CISSP/域二：资产安全',   
+        'tools/CISSP/域三：  安全架构和工程',   
+        'tools/CISSP/域四：通信与网络安全',   
+        'tools/CISSP/域五：身份与访问管理',   
+        'tools/CISSP/域六：安全评估与测试',   
+        'tools/CISSP/域七：安全运营',   
+        'tools/CISSP/域八：软件开发安全',                                                        
+      ],
+    },         
   ]
 }
 
