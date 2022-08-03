@@ -243,7 +243,7 @@ const config = {
         path: 'blog',
         routeBasePath: '/',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/proteus2022/blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/proteus2022/OpenLinker2/tree/master/blog/`,
         editLocalizedFiles: false,
         blogSidebarTitle: '近期文章',
         blogSidebarCount: 10,
