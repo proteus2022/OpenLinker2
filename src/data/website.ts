@@ -105,6 +105,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },   
       {
+        name: '硬创社',
+        desc: '开源硬件项目发布',
+        logo: '/img/website/xjlc.png',
+        href: 'https://x.jlc.com/',
+        tags: [''],
+      },        
+      {
         name: '逆天PCB',
         desc: '开源硬件工程、培训',
         logo: '/img/website/ntpcb.png',
@@ -383,7 +390,7 @@ export const websiteData: WebsiteCategory[] = [
         href: 'http://www.usr.cn',
         tags: [''],
       },
-      //上海
+      
       {
         name: 'MOXA',
         desc: '交换机、路由器、串口设备',
@@ -392,47 +399,95 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },     
       {
+        name: '宏电',
+        desc: '',
+        logo: '/img/website/hongdian.png',
+        href: 'https://www.hongdian.com',
+        tags: [''],
+      },  
+      {
+        name: '四信',
+        desc: '',
+        logo: '/img/website/fourfaith.png',
+        href: 'http://www.four-faith.com/',
+        tags: [''],
+      }, 
+      {
+        name: '映翰通',
+        desc: '',
+        logo: '/img/website/inhand.png',
+        href: 'https://www.inhand.com.cn/',
+        tags: [''],
+      }, 
+    //
+    {
+      name: '研华',
+      desc: '',
+      logo: '/img/website/advantech.png',
+      href: 'https://www.advantech.com.cn/',
+      tags: [''],
+    },  
+
+    {
+      name: '移远',
+      desc: '模组',
+      logo: '/img/website/quectel.png',
+      href: 'https://www.quectel.com/cn',
+      tags: [''],
+    },
+    {
+      name: '合宙',
+      desc: '系统、模组',
+      logo: '/img/website/luat.png',
+      href: 'https://www.openluat.com/welcome',
+      tags: [''],
+    },    
+
+      {
         name: '卓岚',
         desc: '串口设备、芯片',
         logo: '/img/website/zlan.png',
         href: 'http://www.zlmcu.com',
         tags: [''],
-      },             
-      {
-        name: '顺舟',
-        desc: '模组、网关',
-        logo: '/img/website/shuncom.png',
-        href: 'https://www.shuncom.com',
-        tags: [''],
-      },   
+      },        
       {
         name: '汉枫',
         desc: '模组、终端',
         logo: '/img/website/hiflying.png',
         href: 'http://www.hi-flying.com',
         tags: [''],
-      },       
+      },  
+      {
+        name: '塔石',
+        desc: '',
+        logo: '/img/website/tastek.png',
+        href: 'https://www.tastek.cn/index.html',
+        tags: [''],
+      },  
       {
         name: '繁易',
         desc: '工控终端',
         logo: '/img/website/flexem.png',
         href: 'https://www.flexem.cn/Index.html',
         tags: [''],
-      },       
-      {
-        name: '移远',
-        desc: '模组',
-        logo: '/img/website/quectel.png',
-        href: 'https://www.quectel.com/cn',
-        tags: [''],
-      },
-      {
-        name: '合宙',
-        desc: '系统、模组',
-        logo: '/img/website/luat.png',
-        href: 'https://www.openluat.com/welcome',
-        tags: [''],
-      },     
+      },  
+    //苏州
+    {
+      name: '汇川',
+      desc: '',
+      logo: '/img/website/inovance.png',
+      href: 'https://www.inovance.com/hc/index',
+      tags: [''],
+    },             
+     
+
+    {
+      name: '顺舟',
+      desc: '模组、网关',
+      logo: '/img/website/shuncom.png',
+      href: 'https://www.shuncom.com',
+      tags: [''],
+    },      
       //深圳
       {
         name: '康耐德',
@@ -448,13 +503,7 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.3onedata.com.cn',
         tags: [''],
       }, 
-      {
-        name: '宏电',
-        desc: '',
-        logo: '/img/website/hongdian.png',
-        href: 'https://www.hongdian.com',
-        tags: [''],
-      },   
+ 
       {
         name: '力必拓',
         desc: '路由',
@@ -462,33 +511,12 @@ export const websiteData: WebsiteCategory[] = [
         href: 'http://www.szlbt.com',
         tags: [''],
       },  
-      {
-        name: '安信可',
-        desc: '无线',
-        logo: '/img/website/aithinker.png',
-        href: 'https://www.ai-thinker.com/home',
-        tags: [''],
-      },     
-      {
-        name: '唯传',
-        desc: '',
-        logo: '/img/website/winext.png',
-        href: 'http://www.winext.cn/new_winext/index.html',
-        tags: [''],
-      },        
+
       {
         name: '瑞兴恒方',
         desc: '',
         logo: '/img/website/risinghf.png',
         href: 'https://www.risinghf.com/home',
-        tags: [''],
-      },        
-      //成都
-      {
-        name: '亿佰特',
-        desc: '',
-        logo: '/img/website/ebyte.png',
-        href: 'https://www.ebyte.com/',
         tags: [''],
       },   
       {
@@ -497,14 +525,8 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/iotrouter.png',
         href: 'https://www.iotrouter.com/',
         tags: [''],
-      },   
-      {
-        name: '泽耀',
-        desc: '',
-        logo: '/img/website/ashining.png',
-        href: 'http://www.ashining.com/',
-        tags: [''],
-      },     
+      },             
+  
       {
         name: '众山科技',
         desc: '',
@@ -513,13 +535,7 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },    
     //厦门
-    {
-      name: '四信',
-      desc: '',
-      logo: '/img/website/fourfaith.png',
-      href: 'http://www.four-faith.com/',
-      tags: [''],
-    },   
+  
     {
       name: '才茂',
       desc: '',
@@ -549,13 +565,7 @@ export const websiteData: WebsiteCategory[] = [
       tags: [''],
     },       
     //北京
-    {
-      name: '映翰通',
-      desc: '',
-      logo: '/img/website/inhand.png',
-      href: 'https://www.inhand.com.cn/',
-      tags: [''],
-    },   
+  
     {
       name: '康海时代',
       desc: '',
@@ -585,30 +595,36 @@ export const websiteData: WebsiteCategory[] = [
       href: 'http://www.robustel.com.cn/',
       tags: [''],
     },    
-    //杭州
-    {
-      name: '塔石',
-      desc: '',
-      logo: '/img/website/tastek.png',
-      href: 'https://www.tastek.cn/index.html',
-      tags: [''],
-    },        
-    //台湾
-    {
-      name: '研华',
-      desc: '',
-      logo: '/img/website/advantech.png',
-      href: 'https://www.advantech.com.cn/',
-      tags: [''],
-    },   
-    //苏州
-    {
-      name: '汇川',
-      desc: '',
-      logo: '/img/website/inovance.png',
-      href: 'https://www.inovance.com/hc/index',
-      tags: [''],
-    },     
+      //
+      {
+        name: '安信可',
+        desc: '无线',
+        logo: '/img/website/aithinker.png',
+        href: 'https://www.ai-thinker.com/home',
+        tags: [''],
+      },     
+      {
+        name: '唯传',
+        desc: '',
+        logo: '/img/website/winext.png',
+        href: 'http://www.winext.cn/new_winext/index.html',
+        tags: [''],
+      },              
+      {
+        name: '亿佰特',
+        desc: '',
+        logo: '/img/website/ebyte.png',
+        href: 'https://www.ebyte.com/',
+        tags: [''],
+      },   
+ 
+      {
+        name: '泽耀',
+        desc: '',
+        logo: '/img/website/ashining.png',
+        href: 'http://www.ashining.com/',
+        tags: [''],
+      },     
     //武汉
     {
       name: '慧联无限',
@@ -616,7 +632,7 @@ export const websiteData: WebsiteCategory[] = [
       logo: '/img/website/easylinkin.png',
       href: 'http://easylinkin.com/index.aspx',
       tags: [''],
-    },               
+    },                   
     ],
   },  
   {   
