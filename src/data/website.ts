@@ -263,6 +263,20 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://aijishu.com/',
         tags: [],
       },
+      {
+        name: 'doyoudo',
+        desc: '视频剪辑、PS、3D、工业设计的软件视频',
+        logo: '/img/website/doyoudo.png',
+        href: 'https://www.doyoudo.com/',
+        tags: [],
+      },
+      {
+        name: 'coursera',
+        desc: '国际性，涉及各方向的学习网站',
+        logo: '/img/website/coursera.png',
+        href: 'https://www.coursera.org/',
+        tags: [],
+      },            
     ],
   },
   {
