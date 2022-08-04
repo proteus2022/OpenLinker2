@@ -28,6 +28,13 @@ export const websiteData: WebsiteCategory[] = [
     name: '常用网站',
     websites: [
       {
+        name: 'CXY521',
+        desc: '程序员常用网址导航',
+        logo: '/img/website/cxy521.png',
+        href: 'https://www.cxy521.com/',
+        tags: [''],
+      },       
+      {
         name: 'GitHub',
         desc: '全球最大的软件项目托管平台，发现优质开源项目',
         logo: 'https://github.githubassets.com/favicons/favicon.svg',
@@ -105,19 +112,40 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },   
       {
+        name: '世强硬创平台',
+        desc: '物料询价、采购',
+        logo: '/img/website/sekorm.png',
+        href: 'https://www.sekorm.com/',
+        tags: [''],
+      },      
+      {
         name: '硬创社',
         desc: '开源硬件项目发布',
         logo: '/img/website/xjlc.png',
         href: 'https://x.jlc.com/',
         tags: [''],
-      },        
+      },      
+      {
+        name: '电路城',
+        desc: '开源硬件项目发布',
+        logo: '/img/website/cirmall.png',
+        href: 'https://www.cirmall.com/',
+        tags: [''],
+      },           
       {
         name: '逆天PCB',
         desc: '开源硬件工程、培训',
         logo: '/img/website/ntpcb.png',
         href: 'http://bbs.ntpcb.com/',
         tags: [''],
-      },    
+      },   
+      {
+        name: '电源网',
+        desc: '电源方案、信息资讯',
+        logo: '/img/website/dianyuan.png',
+        href: 'https://www.dianyuan.com/',
+        tags: [''],
+      },         
       {
         name: 'CNX Software',
         desc: '嵌入式系统新闻',
@@ -160,6 +188,13 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.eechina.com/',
         tags: [''],
       }, 
+      {
+        name: '电子工程世界',
+        desc: '电子信息资讯',
+        logo: '/img/website/eeworld.png',
+        href: 'http://www.eeworld.com.cn/',
+        tags: [''],
+      },       
       {
         name: '国际电子商情',
         desc: '电子信息资讯',
