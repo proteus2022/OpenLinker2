@@ -1,6 +1,6 @@
 // @ts-check
 const path = require('path')
-const beian = '闽----2'
+const beian = '鲁ICP备2022025773'
 
 //const announcementBarContent = `基于 <a href='https://v3.nuxtjs.org/'>Nuxt3</a> 实现 <a href='https://api.kuizuo.cn'>KZ API</a> 接口站点`
 

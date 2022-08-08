@@ -44,7 +44,7 @@
     "description": "The label of footer link with label=峰华前端工程师 linking to https://zxuqian.cn/"
   },
   "copyright": {
-    "message": "<p>Copyright © 2022 OpenLinker Built with Docusaurus.</p><p><a href=\"http://beian.miit.gov.cn/\" >-ICP备---号-2</a>",
+    "message": "<p>Copyright © 2022 OpenLinker Built with Docusaurus.</p><p><a href=\"http://beian.miit.gov.cn/\" >鲁ICP备2022025773号</a>",
     "description": "The footer copyright"
   }
 }
