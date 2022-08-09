@@ -154,6 +154,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },   
       {
+        name: '51CTO',
+        desc: '电子信息资讯、开源社区',
+        logo: '/img/website/51cto.png',
+        href: 'https://www.51cto.com/',
+        tags: [''],
+      },  
+      {
         name: '与非网',
         desc: '电子信息资讯，含电路城、Datasheet5',
         logo: '/img/website/eefocus.png',
