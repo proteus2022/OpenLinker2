@@ -115,12 +115,12 @@ const config = {
             },
             {
               label: '开源项目',
-              to: 'docs/skill',
+              to: 'docs/opensource',
             },
-            {
+           /* {
               label: '实战项目',
               to: 'project',
-            },
+            },*/
           ],
         },
         {
@@ -130,18 +130,18 @@ const config = {
               label: '首页',
               to: '/',
             },
-            {
+            /*{
               label: '关于我',
               to: '/about',
-            },
+            },*/
             {
               label: 'GitHub',
               href: 'https://github.com/proteus2022',
             },
-            {
+           /* {
               label: '掘金',
               href: 'https://csdn.net/ss_302',
-            },
+            },*/
           ],
         },
         {
