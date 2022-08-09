@@ -46,7 +46,7 @@ function BlogListPageContent(props: Props) {
   const isBlogOnlyMode = metadata.permalink === '/'
   const isPaginated = metadata.page > 1
 
-  let description = `html, css, javascript, react, vue, node, typescript，前端开发，后端开发，技术分享，开源`
+  let description = `嵌入式软硬件、开源项目、电子信息咨询分享`
 
   const isBlogPage = metadata.permalink === '/'
 
