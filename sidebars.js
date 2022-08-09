@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  skill: [
-    'skill/introduction',
+  opensource: [
+    'opensource/introduction',
     {
       label: 'OpenLinker_NUC980',
       type: 'category',
@@ -9,7 +9,7 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
-        'skill/OpenLinker_NUC980/pinia',
+        'opensource/OpenLinker_NUC980/pinia',
       ],
     },
     {
@@ -19,8 +19,8 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
-        'skill/开发板配件/3.5寸LCD+电容触摸',
-        'skill/开发板配件/5寸LCD+电容触摸',
+        'opensource/开发板配件/3.5寸LCD+电容触摸',
+        'opensource/开发板配件/5寸LCD+电容触摸',
       ],
     },    
     /*
@@ -181,16 +181,19 @@ const sidebars = {
       },
     */
   ],
-  tools: [
-    'tools/introduction',
-    {
+  share: [
+    'share/introduction',
+    'share/软件开发相关图书',
+    'share/硬件开发相关图书',
+    'share/管理类图书',
+    /*{
       label: '管理类',
       type: 'category',
       link: {
         type: 'generated-index',
       },
       items: [
-        'tools/管理类/管理类图书',
+        'share/管理类/管理类图书',
       ],
     },    
     {
@@ -200,10 +203,10 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
-        'tools/开发类/软件开发图书',
-        'tools/开发类/硬件开发图书',        
+        'share/开发类/软件开发图书',
+        'share/开发类/硬件开发图书',        
       ],
-    },  
+    },  */
     {
       label: 'CISSP',
       type: 'category',
@@ -211,14 +214,14 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
-        'tools/CISSP/域一.安全和风险管理',
-        'tools/CISSP/域二.资产安全',   
-        'tools/CISSP/域三.安全架构和工程',   
-        'tools/CISSP/域四.通信与网络安全',   
-        'tools/CISSP/域五.身份与访问管理',   
-        'tools/CISSP/域六.安全评估与测试',   
-        'tools/CISSP/域七.安全运营',   
-        'tools/CISSP/域八.软件开发安全',                                                        
+        'share/CISSP/域一.安全和风险管理',
+        'share/CISSP/域二.资产安全',   
+        'share/CISSP/域三.安全架构和工程',   
+        'share/CISSP/域四.通信与网络安全',   
+        'share/CISSP/域五.身份与访问管理',   
+        'share/CISSP/域六.安全评估与测试',   
+        'share/CISSP/域七.安全运营',   
+        'share/CISSP/域八.软件开发安全',                                                        
       ],
     },         
   ]

@@ -1,7 +1,7 @@
 ---
 id: introduction
 title: 概述
-slug: /skill
+slug: /opensource
 keywords:
   - 嵌入式
   - 开源

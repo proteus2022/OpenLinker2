@@ -46,7 +46,7 @@ const config = {
           to: 'website',
         },
         {
-          label: '开源分享',
+          label: '开源链接',
           position: 'right',
           to: 'project',
         },        
@@ -56,11 +56,11 @@ const config = {
           items: [
             {
               label: '开源项目',
-              to: 'docs/skill/',
+              to: 'docs/opensource/',
             },
             {
-              label: '图书推荐',
-              to: 'docs/tools/',
+              label: '资源分享',
+              to: 'docs/share/',
             },
           ],
         },
