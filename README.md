@@ -3,8 +3,8 @@
 </h2>
 
 <p align="center">
-<a href="https://openlinker.cn">🖥 Online Preview</a>
-<a href="https://openlinker.cn"><img src="https://img.openlinker.cn/blog.png" alt="Docusaurus"></a>
+<a href="http://openlinker.cn">🖥 Online Preview</a>
+<a href="http://openlinker.cn"><img src="https://openlinker.oss-cn-hangzhou.aliyuncs.com/img/2022-08-09_163301.png" alt="Docusaurus"></a>
 </p>
 
 ## Introduction
@@ -13,9 +13,7 @@
 基于<a href="https://docusaurus.io/">🦖Docusaurus</a>构建的个人博客
 </pre>
 
-记录所学知识，领略编程之美
-
-我们提供嵌入式软硬件开发所需知识框架、开源项目及技术文档。致力于帮助大家提升嵌入式软硬件开发技术水平
+提供嵌入式软硬件开发所需知识框架、开源项目及技术文档。致力于帮助大家提升嵌入式软硬件开发技术水平。
 
 ## Install
 
