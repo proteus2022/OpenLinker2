@@ -40,7 +40,7 @@ export function BlogUser({ count, isNavbar = false }: { count?: Count; isNavbar?
           OpenLinker
         </Link>
       </div>
-      <div className='bloginfo__description'>不是巅峰时的信仰，而是黄昏时的追逐</div>
+      <div className='bloginfo__description'>开源、分享、提升、简单、快乐</div>
       <div className='bloginfo__num'>
         <Link className='bloginfo__num-item' href='/archive' data-tips='博客数'>
           <FontAwesomeIcon icon={faArchive as IconProp} /> {count.blog}
@@ -48,7 +48,7 @@ export function BlogUser({ count, isNavbar = false }: { count?: Count; isNavbar?
         <Link className='bloginfo__num-item' href='/tags' data-tips='标签数'>
           <FontAwesomeIcon icon={faTag as IconProp} style={{ transform: 'rotate(90deg)' }} /> {count.tag}
         </Link>
-        <Link className='bloginfo__num-item' href='/docs/skill' data-tips='笔记数'>
+        <Link className='bloginfo__num-item' href='/docs/opensource' data-tips='笔记数'>
           <FontAwesomeIcon icon={faBook as IconProp} /> {count.doc}
         </Link>
         <Link className='bloginfo__num-item' href='/project' data-tips='项目数'>
