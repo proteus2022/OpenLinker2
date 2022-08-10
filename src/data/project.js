@@ -166,6 +166,14 @@ const Projects = [
         tags: ['opensource'],
     },      
     {
+        title: 'MANGOPI',
+        description: '芒果Pi，全志平台项目',
+        preview: 'img/website/mangopi.png',
+        website: 'https://mangopi.cc/',
+        source: 'https://github.com/mangopi-sbc',    
+        tags: ['opensource'],
+    },      
+    {
         title: '自己动手写FAT32文件系统',
         description: '自己动手写文件系统、操作系统，收费视频课程在CSDN课堂。',
         preview: 'img/website/zijidongshou.png',
