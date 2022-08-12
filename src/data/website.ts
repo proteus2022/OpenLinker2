@@ -126,6 +126,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },      
       {
+        name: '芯板坊',
+        desc: '专注于最新、最权威的开发板资讯，评测，试用，折扣等信息',
+        logo: '/img/website/xinbanfang.png',
+        href: 'http://www.xinbanfang.com/',
+        tags: [''],
+      },        
+      {
         name: '电路城',
         desc: '开源硬件项目发布',
         logo: '/img/website/cirmall.png',
