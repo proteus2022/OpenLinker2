@@ -267,6 +267,14 @@ const Projects = [
         tags: ['opensource'],
     },   
     {
+        title: 'BabyOs',
+        description: '一套管理功能模块和外设驱动的框架,缩短开发周期。项目开发时选择适用的功能模块及驱动。',
+        preview: 'img/website/babyos.png',
+        website: 'http://babyos.cn/',
+        source: 'https://gitee.com/notrynohigh/BabyOS',    
+        tags: ['opensource','favorite'],
+    },        
+    {
         title: 'ImHex',
         description: '一款开源的Hex编辑工具软件',
         preview: 'img/website/imhex.png',

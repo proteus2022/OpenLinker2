@@ -172,7 +172,7 @@ const config = {
     algolia: {           //搜索组件，需要在algolia上建立自己的账号，更新下面的信息
       appId: '08Y76T8XXU',
       apiKey: '368583c01dd894729395e7d53ce7712e',
-      indexName: 'openlink',
+      indexName: 'openlinker',
     },
     zoom: {
       selector: '.markdown :not(em) > img',
