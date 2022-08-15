@@ -56,7 +56,7 @@ const Projects = [
     },    
     {
         title: 'Mbed OS',
-        description: 'Arm Mbed OS。',
+        description: 'Arm Mbed OS。ARMmbed仓库中还有DAP-LINK开源调试器',
         preview: 'img/website/mbedos.png',
         website: 'https://os.mbed.com/',
         source: 'https://github.com/ARMmbed/mbed-os',
