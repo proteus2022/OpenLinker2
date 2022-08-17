@@ -383,6 +383,39 @@ export const websiteData: WebsiteCategory[] = [
     ],
   },
   {
+    name: '免费PCB设计软件',
+    websites: [
+      {
+        name: 'Kicad',
+        desc: '一款功能强大的设计软件，在不堪AD骚扰的情况下，可以试试',
+        logo: '/img/website/kicad.png',
+        href: 'https://www.kicad.org/',
+        tags: ['PCB'],
+      },
+      {
+        name: '立创EDA',
+        desc: '支持国产。',
+        logo: '/img/website/lceda.png',
+        href: 'https://lceda.cn/',
+        tags: ['PCB'],
+      },
+      {
+        name: 'fritzing',
+        desc: '如果你是一个Arduino或者其他开源硬件的爱好者,那么你一定不能错过Fritzing这款软件',
+        logo: '/img/website/fritzing.png',
+        href: 'https://fritzing.org/',
+        tags: ['PCB'],
+      },      
+      {
+        name: 'PCBWeb Desinger',
+        desc: '已被datasheets收购，很多参考设计可以查看。',
+        logo: '/img/website/pcbweb.png',
+        href: 'https://www.datasheets.com/en',
+        tags: ['PCB'],
+      },         
+    ],
+  },   
+  {
     name: '开发板厂家',
     websites: [
       {
@@ -772,7 +805,7 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['GUI'],
       },                                  
     ],    
-  },    
+  },     
   {
     name: '字体图标',
     websites: [
