@@ -186,6 +186,7 @@ const sidebars = {
     'share/软件开发相关图书',
     'share/硬件开发相关图书',
     'share/管理类图书',
+    'share/常用软件',  
     /*{
       label: '管理类',
       type: 'category',

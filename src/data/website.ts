@@ -33,7 +33,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/cxy521.png',
         href: 'https://www.cxy521.com/',
         tags: [''],
-      },       
+      },     
+      {
+        name: '在线工具',
+        desc: '在线小工具集合',
+        logo: '/img/website/zaixiantool.png',
+        href: 'https://tool.lu/',
+        tags: [''],
+      },            
       {
         name: 'GitHub',
         desc: '全球最大的软件项目托管平台，发现优质开源项目',
