@@ -56,6 +56,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['代码托管', '项目源码'],
       },
       {
+        name: 'wokwi',
+        desc: 'ESP32、Arduino仿真',
+        logo: '/img/website/wokwi.png',
+        href: 'https://wokwi.com/',
+        tags: [''],
+      },        
+      {
         name: 'Learn Git Branching',
         desc: 'Git使用可视化教学',
         logo: '/img/website/gitbranch.png',
