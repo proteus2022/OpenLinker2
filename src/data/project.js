@@ -118,6 +118,14 @@ const Projects = [
         tags: ['opensource'],
     },
     {
+        title: 'CANable',
+        description: '一款好用的USB转CAN工具软件',
+        preview: 'img/website/canable.png',
+        website: 'https://canable.io/',
+        source: 'https://github.com/HubertD/candleLight',    
+        tags: ['opensource', 'favorite'],
+    },  
+    {
         title: 'Serial-Studio',
         description: '一个多平台，多用途的串行数据可视化的应用软件,可以轻松地可视化的呈现和分析其项目和设备生成的数据。',
         preview: 'img/website/serialstudio.png',

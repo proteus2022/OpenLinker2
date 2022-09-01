@@ -393,7 +393,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/lexin.png',
         href: 'https://www.espressif.com.cn/',
         tags: [''],
-      },                         
+      },   
+      {
+        name: '先楫',
+        desc: '高性能MCU',
+        logo: '/img/website/hpmicro.png',
+        href: 'https://www.hpmicro.com/',
+        tags: [''],
+      },                             
     ],
   },
   {
