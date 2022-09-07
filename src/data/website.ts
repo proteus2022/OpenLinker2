@@ -278,6 +278,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },
       {
+        name: 'TI培训',
+        desc: 'TI在线培训中心是TI和21ic电子网联合推出的在线培训项目',
+        logo: '/img/website/tipeixun.png',
+        href: 'https://edu.21ic.com/',
+        tags: [''],
+      },
+      {
         name: 'CSDN课堂',
         desc: '课程丰富，可以买个账号',
         logo: '/img/website/CSDN.png',
