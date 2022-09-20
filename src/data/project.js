@@ -12,6 +12,11 @@ exports.Tags = {
         description: '开源项目可以提供灵感!',
         color: '#39ca30',
     },
+    rtos: {
+        label: '操作系统',
+        description: '开源实时操作系统!',
+        color: '#a44fb7',
+    },    
     product: {
         label: '产品',
         description: '与产品相关的项目!',
@@ -60,7 +65,7 @@ const Projects = [
         preview: 'img/website/mbedos.png',
         website: 'https://os.mbed.com/',
         source: 'https://github.com/ARMmbed/mbed-os',
-        tags: ['opensource'],
+        tags: ['opensource', 'rtos'],
     },  
     {
         title: 'Zephyr OS',
@@ -68,7 +73,7 @@ const Projects = [
         preview: 'img/website/zephyr.png',
         website: 'https://www.zephyrproject.org/',
         source: 'https://github.com/zephyrproject-rtos',
-        tags: ['opensource'],
+        tags: ['opensource', 'rtos'],
     },  
     {
         title: 'Azure ThreadX',
@@ -76,8 +81,24 @@ const Projects = [
         preview: 'img/website/azurertos.png',
         website: 'https://docs.microsoft.com/zh-CN/azure/rtos/',
         source: 'https://github.com/azure-rtos/threadx',
-        tags: ['opensource'],
-    },             
+        tags: ['opensource', 'rtos'],
+    },           
+    {
+        title: 'Luos',
+        description: '轻量型开源容器平台，为边缘和嵌入式系统提供微服务架构。',
+        preview: 'img/website/luos.png',
+        website: 'https://www.luos.io/',
+        source: 'https://github.com/Luos-io/luos_engine/tree/main',
+        tags: ['opensource', 'rtos'],
+    },   
+    {
+        title: 'LuatOS开源',
+        description: '基于lua的开源系统，支持多种硬件平台',
+        preview: 'img/website/luatos.png',
+        website: 'https://www.openluat.com/welcome',
+        source: 'https://gitee.com/openLuat',
+        tags: ['opensource', 'rtos'],
+    },        
     {
         title: 'MicroPython中文社区',
         description: 'micropthon中文论坛，microbit开源项目。',
@@ -93,14 +114,6 @@ const Projects = [
         website: 'https://github.com/arm-university',
         tags: ['opensource'],
     },    
-    {
-        title: 'LuatOS开源',
-        description: '基于lua的开源系统，支持多种硬件平台',
-        preview: 'img/website/luatos.png',
-        website: 'https://www.openluat.com/welcome',
-        source: 'https://gitee.com/openLuat',
-        tags: ['opensource'],
-    },
     {
         title: 'NUC980开源项目',
         description: 'NUC980软硬件开源项目',
