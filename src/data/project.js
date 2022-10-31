@@ -82,7 +82,15 @@ const Projects = [
         website: 'https://docs.microsoft.com/zh-CN/azure/rtos/',
         source: 'https://github.com/azure-rtos/threadx',
         tags: ['opensource', 'rtos'],
-    },           
+    },     
+    {
+        title: 'NuttX',
+        description: 'Apache NuttX is a mature, real-time embedded operating system (RTOS).',
+        preview: 'img/website/nuttx.png',
+        website: 'https://nuttx.apache.org/',
+        source: 'https://github.com/apache/incubator-nuttx',
+        tags: ['opensource', 'rtos'],
+    },              
     {
         title: 'Luos',
         description: '轻量型开源容器平台，为边缘和嵌入式系统提供微服务架构。',
@@ -302,7 +310,14 @@ const Projects = [
         website: 'https://imhex.werwolv.net/',
         source: 'https://github.com/WerWolv/ImHex',    
         tags: ['opensource'],
-    },                                
+    },  
+    {
+        title: 'OSHWA',
+        description: '开源硬件项目认证',
+        preview: 'img/website/oshwa.png',
+        website: 'https://certification.oshwa.org/',   
+        tags: ['opensource'],
+    },                                      
 ];
 exports.TagList = Object.keys(exports.Tags);
 function sortProject() {
