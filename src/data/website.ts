@@ -271,6 +271,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },
       {
+        name: '电子工程世界大学堂',
+        desc: '嵌入式软硬件教程，如OpenCV、ESP32等',
+        logo: '/img/website/eeworldclass.png',
+        href: 'http://training.eeworld.com.cn/',
+        tags: [''],
+      },      
+      {
         name: 'MicroChip大学',
         desc: '安全、工业以太网等系列课程',
         logo: '/img/website/microchip.png',
