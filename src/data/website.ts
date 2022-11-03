@@ -77,6 +77,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },     
       {
+        name: 'excalidraw',
+        desc: '在线手绘风格电子白板和画图应用',
+        logo: '/img/website/excalidraw.png',
+        href: 'https://excalidraw.com/',
+        tags: [''],
+      },   
+      {
         name: 'JSON Visio',
         desc: '可视化JSON编辑',
         logo: '/img/website/jsonvisio.png',
