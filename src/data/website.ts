@@ -847,6 +847,39 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['GUI'],
       },                                  
     ],    
+  },    
+    {   //云平台
+    name: '云平台',
+    websites: [
+      {
+        name: '小米IoT开发者平台',
+        desc: '设备接入规范、标准、产品分类值得学习',
+        logo: '/img/website/miiot.png',
+        href: 'https://iot.mi.com/',
+        tags: [''],
+      },
+      {
+        name: 'OneNET',
+        desc: '中国移动物联网开放平台',
+        logo: '/img/website/onenet.png',
+        href: 'https://open.iot.10086.cn/',
+        tags: [''],
+      },  
+      {
+        name: '阿里云IoT',
+        desc: '阿里云物联网相关',
+        logo: '/img/website/aliiot.png',
+        href: 'https://iot.aliyun.com/',
+        tags: [''],
+      },    
+      {
+        name: 'AWS IoT',
+        desc: '亚马逊云物联网相关',
+        logo: '/img/website/awsiot.png',
+        href: 'https://aws.amazon.com/cn/iot/?nc2=h_ql_prod_it',
+        tags: [''],
+      },                                
+    ],
   },     
   {
     name: '字体图标',
