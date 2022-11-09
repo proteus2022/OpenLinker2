@@ -878,7 +878,21 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/awsiot.png',
         href: 'https://aws.amazon.com/cn/iot/?nc2=h_ql_prod_it',
         tags: [''],
-      },                                
+      },      
+      {
+        name: '艾拉比',
+        desc: '通过OTA技术赋予万物持续进化的能力',
+        logo: '/img/website/abupdate.png',
+        href: 'http://www.abupdate.com/',
+        tags: [''],
+      },         
+      {
+        name: 'EMQ',
+        desc: '全球领先的开源云原生 MQTT 消息服务器和流处理数据库',
+        logo: '/img/website/emqx.png',
+        href: 'https://www.emqx.com/zh',
+        tags: [''],
+      },        
     ],
   },     
   {
