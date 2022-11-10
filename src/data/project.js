@@ -317,7 +317,14 @@ const Projects = [
         preview: 'img/website/oshwa.png',
         website: 'https://certification.oshwa.org/',   
         tags: ['opensource'],
-    },                                      
+    },  
+    {
+        title: 'QP状态机',
+        description: '嵌入式状态机框架及实现',
+        preview: 'img/website/qpstate.png',
+        website: 'https://www.state-machine.com/',
+        tags: ['opensource'],
+    },                                        
 ];
 exports.TagList = Object.keys(exports.Tags);
 function sortProject() {
