@@ -322,8 +322,9 @@ const Projects = [
         title: 'QP状态机',
         description: '嵌入式状态机框架及实现',
         preview: 'img/website/qpstate.png',
-        website: 'https://www.state-machine.com/',
-        tags: ['opensource'],
+        website: 'https://www.state-machine.com/qpc/index.html',
+        source: 'https://github.com/QuantumLeaps/qpc',
+        tags: ['opensource','favorite'],
     },                                        
 ];
 exports.TagList = Object.keys(exports.Tags);
