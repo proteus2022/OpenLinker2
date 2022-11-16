@@ -40,7 +40,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/zaixiantool.png',
         href: 'https://tool.lu/',
         tags: [''],
-      },            
+      },   
+      {
+        name: '鸠摩搜书',
+        desc: '电子书下载的天堂，极力推荐',
+        logo: '/img/website/jiumo.png',
+        href: 'https://www.jiumodiary.com/',
+        tags: [''],
+      },                
       {
         name: 'GitHub',
         desc: '全球最大的软件项目托管平台，发现优质开源项目',
