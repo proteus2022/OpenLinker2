@@ -266,6 +266,34 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },
       {
+        name: '御芯微',
+        desc: '成都,芯片，RFID模块',
+        logo: '/img/website/ucchip.png',
+        href: 'https://ucchip.com/',
+        tags: [''],
+      },  
+      {
+        name: 'IMPINJ',
+        desc: '标签芯片，读写器芯片，读写器',
+        logo: '/img/website/impinj.png',
+        href: 'https://www.impinj.com/zh-cn',
+        tags: [''],
+      },  
+      {
+        name: 'PHYCHIPS',
+        desc: '读写器芯片',
+        logo: '/img/website/phychips.png',
+        href: 'http://www.phychips.com/',
+        tags: [''],
+      }, 
+      {
+        name: '旗连电子',
+        desc: '无锡,UHF芯片',
+        logo: '/img/website/magicrf.png',
+        href: 'http://www.magicrf.com/index.htm',
+        tags: [''],
+      },  
+      {
         name: '远望谷',
         desc: '深圳，方案，各种读写器',
         logo: '/img/website/invengo.png',
@@ -309,12 +337,61 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },        
       {
+        name: '万全智能',
+        desc: '深圳，十五年聚焦于RFID',
+        logo: '/img/website/vanch.png',
+        href: 'http://www.vanch.cn/',
+        tags: [''],
+      },      
+      {
+        name: '新思物联',
+        desc: '深圳，UHF,各种终端及方案',
+        logo: '/img/website/sysiot.png',
+        href: 'http://www.sysiot.cn/',
+        tags: [''],
+      },        
+      {
         name: '中控迪优',
         desc: '深圳，各种读写器',
         logo: '/img/website/zkradio.png',
         href: 'http://www.zkradio.com/index.aspx',
         tags: [''],
-      },        
+      }, 
+      {
+        name: '汉德霍尔',
+        desc: '深圳，手持式阅读设备',
+        logo: '/img/website/handheld.png',
+        href: 'http://hhw9.com/',
+        tags: [''],
+      },              
+      {
+        name: '斯科信息',
+        desc: '深圳，大型RFID读写设备',
+        logo: '/img/website/cykeo.png',
+        href: 'http://www.cykeo.com/',
+        tags: [''],
+      },  
+      {
+        name: '先施科技',
+        desc: '深圳，UHF,终端',
+        logo: '/img/website/sensehk.png',
+        href: 'http://www.sense-hk.com/',
+        tags: [''],
+      },          
+      {
+        name: '销邦科技',
+        desc: '深圳，解决方案',
+        logo: '/img/website/supoin.png',
+        href: 'http://www.supoin.com/',
+        tags: [''],
+      },       
+      {
+        name: '瑞德物联',
+        desc: '深圳，RFID资产定位，数字化标识与精准定位',
+        logo: '/img/website/readiot.png',
+        href: 'http://www.readiot.com/',
+        tags: [''],
+      },         
       {
         name: '捷通',
         desc: '深圳，各种读写器，小公司',
@@ -329,7 +406,34 @@ export const websiteData: WebsiteCategory[] = [
         href: 'http://www.rr-rfid.com/',
         tags: [''],
       },
-
+      {
+        name: '骏发瑞达',
+        desc: '深圳，各种读写器，小公司',
+        logo: '/img/website/jfrd.png',
+        href: 'http://www.jf-rd.com/',
+        tags: [''],
+      },   
+      {
+        name: '博纬智能',
+        desc: '深圳，天线、标签、通道门',
+        logo: '/img/website/brrfid.png',
+        href: 'http://www.brrfid.com/',
+        tags: [''],
+      },          
+      {
+        name: '华士精成',
+        desc: '深圳，终端与解决方案',
+        logo: '/img/website/marktrace.png',
+        href: 'http://www.marktrace.com/',
+        tags: [''],
+      }, 
+      {
+        name: '德科物联',
+        desc: '深圳，HF,NFC，读卡器、模块',
+        logo: '/img/website/derkiot.png',
+        href: 'https://www.derkiot.com/',
+        tags: [''],
+      },      
 
       //上海
       {
@@ -339,6 +443,27 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.inlaylink.com/cn/',
         tags: [''],
       },  
+      {
+        name: '浚蔚电子',
+        desc: '上海，读写器、网关、IO',
+        logo: '/img/website/junweitech.png',
+        href: 'http://www.junweitech.com/',
+        tags: [''],
+      },     
+      {
+        name: '上海普阅',
+        desc: '上海，UHF，读写器',
+        logo: '/img/website/shrfid.png',
+        href: 'http://www.sh-rfid.com/index.aspx',
+        tags: [''],
+      },   
+      {
+        name: '阿法迪',
+        desc: '上海，解决方案',
+        logo: '/img/website/anyid.png',
+        href: 'http://www.anyid.com.cn/index.html',
+        tags: [''],
+      },             
       //广州
       {
         name: '安的电子',
@@ -347,6 +472,41 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.gzandea.com/',
         tags: [''],
       },  
+      {
+        name: '捷友',
+        desc: '江门，小公司',
+        logo: '/img/website/jieyoo.png',
+        href: 'http://www.jieyoo.com/',
+        tags: [''],
+      },     
+      {
+        name: '品创电子',
+        desc: '广州，读卡器，安全门',
+        logo: '/img/website/pcrfid.png',
+        href: 'https://www.pcrfid.com/',
+        tags: [''],
+      }, 
+      {
+        name: '思远创智能设备',
+        desc: '广州，条码扫描，RFID读卡',
+        logo: '/img/website/sycreader.png',
+        href: 'https://www.sycreader.com/',
+        tags: [''],
+      },     
+      {
+        name: '暨嘉智能设备',
+        desc: '广州，智能钥匙柜',
+        logo: '/img/website/gzjnu.png',
+        href: 'http://www.gzjnu.com/',
+        tags: [''],
+      }, 
+      {
+        name: '罗维尼科技',
+        desc: '广州，解决方案，各种设备',
+        logo: '/img/website/rovinj.png',
+        href: 'http://www.rovinj.cn/',
+        tags: [''],
+      },                     
       //江苏
       {
         name: '东集',
@@ -368,7 +528,8 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/laxcen.png',
         href: 'http://www.laxcen.com.cn/contact.html',
         tags: [''],
-      },             
+      },        
+
       //北京
       {
         name: '芯联',
@@ -376,7 +537,22 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/silion.png',
         href: 'https://www.silion.com.cn/',
         tags: [''],
-      },              
+      },            
+      {
+        name: '瑞弗艾迪',
+        desc: '北京，多通道阅读器',
+        logo: '/img/website/rfadtech.png',
+        href: 'http://www.rfadtech.com/',
+        tags: [''],
+      },   
+      {
+        name: '德鑫物联',
+        desc: '北京，标签生产设备，高端装备',
+        logo: '/img/website/dexinquan.png',
+        href: 'http://www.dexinquan.com/zh-cn/homepage/default.shtml',
+        tags: [''],
+      },  
+
       //国际
       {
         name: 'Zebra',
@@ -385,13 +561,7 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.zebra.cn/cn/zh.html',
         tags: [''],
       },  
-      {
-        name: 'IMPINJ',
-        desc: '标签芯片，读写器芯片，读写器',
-        logo: '/img/website/impinj.png',
-        href: 'https://www.impinj.com/zh-cn',
-        tags: [''],
-      },        
+    
       
     ],
   },
