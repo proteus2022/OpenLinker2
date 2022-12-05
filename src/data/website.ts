@@ -253,6 +253,149 @@ export const websiteData: WebsiteCategory[] = [
       },                                       
     ],
   },  
+
+  {
+    name: 'RFID',
+    websites: [
+      //深圳
+      {
+        name: '国芯物联',
+        desc: '深圳,UHF,芯片，RFID模块',
+        logo: '/img/website/nationrfid.png',
+        href: 'https://www.nationrfid.com/',
+        tags: [''],
+      },
+      {
+        name: '远望谷',
+        desc: '深圳，方案，各种读写器',
+        logo: '/img/website/invengo.png',
+        href: 'https://www.invengo.cn/',
+        tags: [''],
+      },       
+
+      {
+        name: '金瑞铭',
+        desc: '深圳，RFID射频产品，工业物联网',
+        logo: '/img/website/genrace.png',
+        href: 'https://www.genrace.com/',
+        tags: [''],
+      },   
+      {
+        name: '铨顺宏',
+        desc: '深圳，UHF，方案',
+        logo: '/img/website/fuwit.png',
+        href: 'https://www.fuwit.com.cn/',
+        tags: [''],
+      },        
+      {
+        name: '鸿陆',
+        desc: '深圳，UHF，方案',
+        logo: '/img/website/hopeland.png',
+        href: 'https://www.hopelandiot.com/',
+        tags: [''],
+      },  
+      {
+        name: '成为',
+        desc: '深圳，UHF，各种读写器',
+        logo: '/img/website/chainway.png',
+        href: 'https://www.chainway.cn/',
+        tags: [''],
+      },   
+      {
+        name: '罗丹贝尔',
+        desc: '深圳，UHF，各种读写器',
+        logo: '/img/website/rodinbell.png',
+        href: 'http://www.rodinbell.cn/cn/Index.html',
+        tags: [''],
+      },        
+      {
+        name: '中控迪优',
+        desc: '深圳，各种读写器',
+        logo: '/img/website/zkradio.png',
+        href: 'http://www.zkradio.com/index.aspx',
+        tags: [''],
+      },        
+      {
+        name: '捷通',
+        desc: '深圳，各种读写器，小公司',
+        logo: '/img/website/jtrfid.png',
+        href: 'http://www.jt-rfid.com/',
+        tags: [''],
+      },
+      {
+        name: '荣睿科技',
+        desc: '深圳，各种读写器，小公司',
+        logo: '/img/website/rrrfid.png',
+        href: 'http://www.rr-rfid.com/',
+        tags: [''],
+      },
+
+
+      //上海
+      {
+        name: '英内物联',
+        desc: '上海，UHF，标签，硬件，系统',
+        logo: '/img/website/inlalink.png',
+        href: 'https://www.inlaylink.com/cn/',
+        tags: [''],
+      },  
+      //广州
+      {
+        name: '安的电子',
+        desc: '广州，UHF，方案',
+        logo: '/img/website/gzandea.png',
+        href: 'https://www.gzandea.com/',
+        tags: [''],
+      },  
+      //江苏
+      {
+        name: '东集',
+        desc: '南京，各种读写终端，方案',
+        logo: '/img/website/seuic.png',
+        href: 'https://www.seuic.com/',
+        tags: [''],
+      },  
+      {
+        name: '品冠物联',
+        desc: '无锡，各种标签、模块、读写终端',
+        logo: '/img/website/thinkgo.png',
+        href: 'http://www.thinkgo-iot.cc/',
+        tags: [''],
+      },  
+      {
+        name: '立芯科技',
+        desc: '宁波，标签、终端、机器人',
+        logo: '/img/website/laxcen.png',
+        href: 'http://www.laxcen.com.cn/contact.html',
+        tags: [''],
+      },             
+      //北京
+      {
+        name: '芯联',
+        desc: '北京，各种模块、标签、读写器',
+        logo: '/img/website/silion.png',
+        href: 'https://www.silion.com.cn/',
+        tags: [''],
+      },              
+      //国际
+      {
+        name: 'Zebra',
+        desc: '国际大厂，值得参照学习',
+        logo: '/img/website/zebra.png',
+        href: 'https://www.zebra.cn/cn/zh.html',
+        tags: [''],
+      },  
+      {
+        name: 'IMPINJ',
+        desc: '标签芯片，读写器芯片，读写器',
+        logo: '/img/website/impinj.png',
+        href: 'https://www.impinj.com/zh-cn',
+        tags: [''],
+      },        
+      
+    ],
+  },
+
   {
     name: '视频学习',
     websites: [
