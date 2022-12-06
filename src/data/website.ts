@@ -984,7 +984,13 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.iotrouter.com/',
         tags: [''],
       },             
-  
+      {
+        name: '金鸽科技',
+        desc: '',
+        logo: '/img/website/4giot.png',
+        href: 'https://www.4g-iot.com/',
+        tags: [''],
+      },   
       {
         name: '众山科技',
         desc: '',
