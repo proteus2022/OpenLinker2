@@ -294,6 +294,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },  
       {
+        name: '智坤',
+        desc: '上海，UHF,芯片，RFID模块',
+        logo: '/img/website/iotelligent.png',
+        href: 'http://www.iotelligent.com/',
+        tags: [''],
+      },      
+      {
         name: '远望谷',
         desc: '深圳，方案，各种读写器',
         logo: '/img/website/invengo.png',
