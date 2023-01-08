@@ -19,7 +19,14 @@ export const Friends: Friend[] = [
     description: '现在网站架构是从这个老师网站上改的',
     website: 'https://kuizuo.cn/',
     avatar: require('./avatar/mas0n.png'),
-  },/*
+  },
+  {
+    title: 'Docusaurus',
+    description: '框架官方网站',
+    website: 'https://docusaurus.io/zh-CN/',
+    avatar: require('./avatar/docusaurus.png'),
+  },  
+  /*
   {
     title: 'Ninjee',
     description: '个人主义的前端篮子',
