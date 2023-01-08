@@ -24,7 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     
     - run: yarn install
-    - run: yarn run build   
+    - run: yarn start  
 
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0 # 使用的sftp插件，将项目传到服务器上，这里使用2.0版本，最新版本4.0不支持sftp
