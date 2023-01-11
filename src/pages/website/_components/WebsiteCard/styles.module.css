@@ -1,7 +1,8 @@
 .websiteCard {
   background-color: var(--ifm-card-background-color);
   border-radius: 8px;
-  border: 1px solid rgba(204, 204, 204, 0.5);
+  border: 1px solid rgb(204 204 204 / 50%);
+  height: 100%;
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -9,8 +10,12 @@
 }
 
 .websiteCard:hover {
-  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
-  background-color: #f2f8fd;
+  box-shadow: 0 10px 20px -10px rgb(0 0 0 / 20%);
+  transform: translateY(-5px);
+}
+
+html[data-theme='dark'] .websiteCard:hover {
+  box-shadow: 0 10px 20px -10px rgb(255 255 255 / 20%);
   transform: translateY(-5px);
 }
 
@@ -34,7 +39,11 @@
 
 .websiteCardTitle a {
   text-decoration: none;
-  background: linear-gradient(var(--ifm-color-primary), var(--ifm-color-primary)) 0% 100% / 0% 1px no-repeat;
+  background: linear-gradient(
+      var(--ifm-color-primary),
+      var(--ifm-color-primary)
+    )
+    0% 100% / 0% 1px no-repeat;
   transition: background-size ease-out 200ms;
 }
 
@@ -52,6 +61,7 @@
   line-height: 1.66;
   width: 100%;
   margin: 0;
+  /* stylelint-disable-next-line value-no-vendor-prefix */
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 2;

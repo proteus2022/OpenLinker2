@@ -33,18 +33,10 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/proteus2022"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/kuizuo"
   },
   "link.item.label.掘金": {
     "message": "掘金",
-    "description": "The label of footer link with label=掘金 linking to https://csdn.net/ss_302"
-  },
-  "link.item.label.峰华前端工程师": {
-    "message": "峰华前端工程师",
-    "description": "The label of footer link with label=峰华前端工程师 linking to https://zxuqian.cn/"
-  },
-  "copyright": {
-    "message": "<p>Copyright © 2022 OpenLinker Built with Docusaurus.</p><p><a href=\"http://beian.miit.gov.cn/\" >鲁ICP备2022025773号</a>",
-    "description": "The footer copyright"
+    "description": "The label of footer link with label=掘金 linking to https://juejin.cn/user/1565318510545901"
   }
 }

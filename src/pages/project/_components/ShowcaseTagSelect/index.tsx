@@ -1,10 +1,3 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 import React, {
   type ComponentProps,
   type ReactNode,
@@ -16,7 +9,7 @@ import React, {
 import {useHistory, useLocation} from '@docusaurus/router';
 import {toggleListItem} from '@site/src/utils/jsUtils';
 import {prepareUserState} from '../../index.tsx';
-import type {TagType} from '@site/src/data/users';
+import type {TagType} from '@site/data/users';
 
 import styles from './styles.module.css';
 

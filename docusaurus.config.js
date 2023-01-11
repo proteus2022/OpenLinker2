@@ -1,8 +1,7 @@
-// @ts-check
 const path = require('path')
 const beian = '鲁ICP备2022025773'
 
-//const announcementBarContent = `基于 <a href='https://v3.nuxtjs.org/'>Nuxt3</a> 实现 <a href='https://api.kuizuo.cn'>KZ API</a> 接口站点`
+//const announcementBarContent = `🌟更新 2022 年终总结`;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,13 +13,11 @@ const config = {
   organizationName: 'openlinker',
   projectName: 'blog',
   tagline: '记录所学知识，领略编程之美',
+  onBrokenLinks: 'warn',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/logo.png',
- /*   announcementBar: {
-      id: 'announcementBar-3',
-      content: announcementBarContent,
-    },*/
+
     metadata: [
       {
         name: 'keywords',
@@ -30,8 +27,9 @@ const config = {
     docs: {
       sidebar: {
         hideable: true,
-      }
+      },
     },
+  
     navbar: {
       title: 'OpenLinker',
       logo: {
@@ -74,33 +72,6 @@ const config = {
           to: 'archive',
           position: 'right',
         },
-
-/*        {
-          label: '小工具',
-          position: 'right',
-          items: [
-            {
-              label: 'API接口',
-              to: 'https://api.kuizuo.cn',
-            },
-            {
-              label: 'JS代码混淆与还原',
-              to: 'https://deobfuscator.kuizuo.cn',
-            },
-            {
-              label: 'CyberChef在线加解密',
-              to: 'https://cipher.kuizuo.cn',
-            },
-            {
-              label: 'OpenLinker在线工具',
-              to: 'https://tools.kuizuo.cn',
-            },
-            {
-              label: 'OpenLinker网盘',
-              to: 'https://pan.kuizuo.cn',
-            },
-          ],
-        },*/
       ],
     },
     footer: {      //底部导航栏
@@ -111,7 +82,7 @@ const config = {
           items: [
             {
               label: '技术博客',
-              to: '/#homepage_blogs',
+              to: '/tags',
             },
             {
               label: '开源项目',
@@ -157,13 +128,25 @@ const config = {
           }],
         },
       ],
-      copyright: `<p>Copyright © ${new Date().getFullYear()}  Built with Docusaurus.</p><p><a href="http://github.io/" ></a></p>`,
+      copyright: `Copyright © ${new Date().getFullYear()} OpenLinker Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
     },
+
     prism: {
-      theme: require('prism-react-renderer/themes/okaidia'),
+      theme: require('prism-react-renderer/themes/vsLight'),
       darkTheme: require('prism-react-renderer/themes/vsDark'),
-      additionalLanguages: ['java', 'php'],
-      // defaultLanguage: "javascript",
+      additionalLanguages: ['java', 'php', 'rust', 'toml'],
+      defaultLanguage: 'javascript',
+      magicComments: [
+        {
+          className: 'theme-code-block-highlighted-line',
+          line: 'highlight-next-line',
+          block: {start: 'highlight-start', end: 'highlight-end'},
+        },
+        {
+          className: 'code-block-error-line',
+          line: 'This will error',
+        },
+      ],
     },
     tableOfContents: {
       minHeadingLevel: 2,
@@ -178,9 +161,9 @@ const config = {
       selector: '.markdown :not(em) > img',
       background: {
         light: 'rgb(255, 255, 255)',
-        dark: 'rgb(50, 50, 50)'
+        dark: 'rgb(50, 50, 50)',
       },
-      config: {}
+      config: {},
     },
     matomo: {      //网站统计分析功能
       matomoUrl: 'https://matomo.nouse.cn/',
@@ -198,22 +181,13 @@ const config = {
     },    
     liveCodeBlock: {
       playgroundPosition: 'top',
-    }, 
+    },
     socials: {
       github: 'https://github.com/proteus2022',
       csdn: 'https://blog.csdn.net/ss_302',
       qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=149350110&amp;site=qq',
       wx: 'https://music.163.com/#/user/home?id=1333010742',
     },
-    // googleAnalytics: {
-    //   trackingID: "UA-118572241-1",
-    //   anonymizeIP: true, // Should IPs be anonymized?
-    // },
-    // gtag: {
-    //   trackingID: "G-6PSESJX0BM",
-    //   // Optional fields.
-    //   anonymizeIP: true, // Should IPs be anonymized?
-    // },
   },
   presets: [
     [
@@ -226,11 +200,15 @@ const config = {
         },
         blog: false,
         theme: {
-          customCss: [require.resolve('./src/css/custom.css')],
+          customCss: [require.resolve('./src/css/custom.scss')],
         },
         sitemap: {
           changefreq: 'daily',
           priority: 0.5,
+        },
+        gtag: {
+          trackingID: 'G-S4SD5NXWXF',
+          anonymizeIP: true,
         },
         // debug: true,
       }),
@@ -238,40 +216,46 @@ const config = {
   ],
   themes: ['@docusaurus/theme-live-codeblock'],
   plugins: [
+    'docusaurus-plugin-matomo',
+    'docusaurus-plugin-image-zoom',
+    'docusaurus-plugin-sass',
+    path.resolve(__dirname, './src/plugin/plugin-baidu-tongji'),
+    path.resolve(__dirname, './src/plugin/plugin-baidu-push'),
     [
-      path.resolve(__dirname, './src/plugin/plugin-content-blog'), {
+      path.resolve(__dirname, './src/plugin/plugin-content-blog'),
+      {
         path: 'blog',
         routeBasePath: '/',
-        editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/proteus2022/OpenLinker2/tree/master/blog/`,
+        editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
+        `https://github.com/proteus2022/OpenLinker2/tree/master/blog/`,
         editLocalizedFiles: false,
-        blogSidebarTitle: '近期文章',
         blogSidebarCount: 10,
         postsPerPage: 10,
         showReadingTime: true,
-        readingTime: ({ content, frontMatter, defaultReadingTime }) =>
-          defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
+        readingTime: ({content, frontMatter, defaultReadingTime}) =>
+          defaultReadingTime({content, options: {wordsPerMinute: 300}}),
         feedOptions: {
           type: 'all',
           title: 'OpenLinker',
           copyright: `Copyright © ${new Date().getFullYear()} OpenLinker Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
-      }
+      },
     ],
-    path.resolve(__dirname, './src/plugin/plugin-baidu-analytics'),
-    path.resolve(__dirname, './src/plugin/plugin-baidu-push'),
-    'docusaurus-plugin-matomo',
-    'docusaurus-plugin-image-zoom',
     [
-      '@docusaurus/plugin-ideal-image', {
+      '@docusaurus/plugin-ideal-image',
+      {
         disableInDev: false,
-      }
+      },
     ],
     [
       '@docusaurus/plugin-pwa',
       {
         debug: true,
-        offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString'],
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
         pwaHead: [
           {
             tagName: 'link',
@@ -295,9 +279,13 @@ const config = {
   stylesheets: [],
   i18n: {
     defaultLocale: 'zh',
-    locales: ['zh'],
+    locales: ['en', 'zh'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+    },
   },
-  onBrokenLinks: 'ignore',
-}
+};
 
-module.exports = config
+module.exports = config;

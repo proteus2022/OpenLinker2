@@ -1,126 +1,74 @@
-import React from 'react'
+import React from 'react';
 
-import { useTrail, animated } from 'react-spring'
-import Translate, { translate } from '@docusaurus/Translate'
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import Link from '@docusaurus/Link'
+import { useTrail, animated } from '@react-spring/web';
+import Translate from '@docusaurus/Translate';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Link from '@docusaurus/Link';
 
-import HeroMain from './img/hero_main.svg'
+import HeroMain from './img/hero_main.svg';
 
-import GithubIcon from '@site/static/icons/github.svg'
-import JuejinIcon from '@site/static/icons/juejin.svg'
-import RssIcon from '@site/static/icons/rss.svg'
-import QqIcon from '@site/static/icons/qq.svg'
-import WxIcon from '@site/static/icons/wx.svg'
-import CsdnIcon from '@site/static/icons/csdn.svg'
-import CloudMusicIcon from '@site/static/icons/cloud-music.svg'
-import TwitterIcon from '@site/static/icons/twitter.svg'
-import useBaseUrl from '@docusaurus/useBaseUrl'
-import Button from '../Button'
+import JuejinIcon from '@site/static/svg/juejin.svg';
+import { Icon } from '@iconify/react';
 
-import styles from './styles.module.css'
+import styles from './styles.module.scss';
 
 function Hero() {
-  const {
-    // 当前语言
-    i18n: { currentLocale },
-  } = useDocusaurusContext()
-
-  // animation
-  const animatedTexts = useTrail(5, {
-    from: { opacity: 0, transform: 'translateY(3em)' },
-    to: { opacity: 1, transform: 'translateY(0)' },
+  const trails = useTrail(4, {
+    from: { opacity: 0, transform: 'translate3d(0px, 2em, 0px)' },
+    to: { opacity: 1, transform: 'translate3d(0px, 0px, 0px)' },
     config: {
       mass: 3,
-      friction: 45,
       tension: 460,
+      friction: 45,
     },
-  })
+  });
 
   return (
     <animated.div className={styles.hero}>
       <div className={styles.bloghome__intro}>
-        <animated.div style={animatedTexts[0]} className={styles.hero_text}>
-          欢迎访问 
-          <span className={styles.intro__name}>OpenLinker</span>
+        <animated.div style={trails[0]} className={styles.hero_text}>
+          <Translate id="homepage.hero.greet">欢迎访问 </Translate>
+          <span className={styles.intro__name}>
+            <Translate id="homepage.hero.name">OpenLinker</Translate>
+          </span>
         </animated.div>
-        <animated.p style={animatedTexts[1]}>
-          <Translate
-            id='homepage.hero.text'
-            description='hero text'
-            values={{
-              blogs: (
-                <Link to='#homepage_blogs'>
-                  <Translate id='hompage.hero.text.blog' description='Blog link label'>
-                    技术博客
-                  </Translate>
-                </Link>
-              ),
-              project: (
-                <Link to='/project'>
-                  <Translate id='hompage.hero.text.project' description='Project link label'>
-                    实战项目
-                  </Translate>
-                </Link>
-              ),
-              links: (
-                <Link to='/resources'>
-                  <Translate id='hompage.hero.text.link' description='Link link label'>
-                    资源导航
-                  </Translate>
-                </Link>
-              ),
-            }}
-          >
+        <animated.p style={trails[1]}>
+          <Translate id="homepage.hero.text">
+            {``}
           </Translate>
+          <br />
+          <br />
         </animated.p>
-        {/* {currentLocale === 'zh-CN' && (
-          <animated.p style={animatedTexts[3]}>
-            <Translate id='homepage.qqgroup1' description='qq group1'>
-              QQ 群：5478458
-            </Translate>
-          </animated.p>
-        )} */}
-        <SocialLinks animatedProps={animatedTexts[4]} />
-        {/*
-          <animated.div style={animatedTexts[2]}>
-            <Button isLink href={'./about'}>
-              自我介绍
-            </Button>
-          </animated.div>*/
-        }
+  
       </div>
-      <HeroMainImage />
+      <div className={styles.bloghome__image}>
+        <HeroMain />
+      </div>
     </animated.div>
-  )
+  );
 }
 
-export function SocialLinks({ animatedProps, ...props }) {
-  const { siteConfig } = useDocusaurusContext()
-  const { themeConfig } = siteConfig
-  const socials = themeConfig.socials as { github: string;csdn: string; qq: string; wx: string; }
+export function SocialLinks({ ...prop }) {
+  const { siteConfig } = useDocusaurusContext();
+  const { themeConfig } = siteConfig;
+  const socials = themeConfig.socials as {
+    github: string;
+    twitter: string;
+    juejin: string;
+    csdn: string;
+    qq: string;
+    wx: string;
+    cloudmusic: string;
+    zhihu: string;
+  };
 
   return (
-    <animated.div className={styles.social__links} style={animatedProps}>
-      <a href={socials.github} target='_blank'>
-        <GithubIcon />
-      </a>
-      <a href={socials.csdn} target='_blank'>
-        <CsdnIcon />
-      </a> 
-      <a href={socials.qq} target='_blank'>
-        <QqIcon />
+    <animated.div className={styles.social__links} {...prop}>
+      <a href={socials.github} target="_blank">
+        <Icon icon='ri:github-line' />
       </a>
     </animated.div>
-  )
+  );
 }
 
-function HeroMainImage() {
-  return (
-    <div className={styles.bloghome__image}>
-      <HeroMain />
-    </div>
-  )
-}
-
-export default Hero
+export default Hero;
