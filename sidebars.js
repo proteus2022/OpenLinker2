@@ -1,6 +1,51 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  opensource: [
+  document: [
+    'document/introduction',
+    {
+      label: '智能卡',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'document/智能卡/HYM4616A4',
+        'document/智能卡/HYM4616A7',
+        'document/智能卡/HYM4616B4',
+        'document/智能卡/HYM4616C7',
+      ],
+    },
+    {
+      label: '读卡器',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'document/读卡器/HYC901S',
+        'document/读卡器/HYC902S',
+        'document/读卡器/HYC921',
+        'document/读卡器/HYB620',
+      ],
+    },
+    {
+      label: '安全芯片',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'document/安全芯片/HY9840',
+        'document/安全芯片/HY5950&HY5960',
+      ],
+    },
+  ],  
+  solution: [         //解决方案
+    'solution/introduction',
+    'solution/智能档案管理系统',
+  ],
+
+  opensource: [         //开源项目
     'opensource/introduction',
     {
       label: 'OpenLinker_NUC980',
@@ -25,7 +70,7 @@ const sidebars = {
     },    
    
   ],
-  share: [
+  share: [                   //资源分享
     'share/introduction',
     'share/软件开发相关图书',
     'share/硬件开发相关图书',

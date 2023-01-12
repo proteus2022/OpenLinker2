@@ -39,19 +39,17 @@ const config = {
       },
       items: [
         {
-          label: '网址导航',
-          position: 'right',
-          to: 'website',
-        },
-        {
-          label: '开源链接',
-          position: 'right',
-          to: 'project',
-        },        
-        {
           label: '文档中心',
           position: 'right',
           items: [
+            {
+              label: '产品资料',
+              to: 'docs/document/',
+            },  
+            {
+              label: '解决方案',
+              to: 'docs/solution/',
+            },                     
             {
               label: '开源项目',
               to: 'docs/opensource/',
@@ -61,7 +59,17 @@ const config = {
               to: 'docs/share/',
             },
           ],
+        },        
+        {
+          label: '网址导航',
+          position: 'right',
+          to: 'website',
         },
+        {
+          label: '开源链接',
+          position: 'right',
+          to: 'project',
+        },        
          {
          label: '博客标签',
           to: 'tags',
