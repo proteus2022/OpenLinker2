@@ -272,6 +272,13 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/ucchip.png',
         href: 'https://ucchip.com/',
         tags: [''],
+      },        
+      {
+        name: '易兆微',
+        desc: '杭州,蓝牙、Wi-Fi、NFC',
+        logo: '/img/website/yichip.png',
+        href: 'http://www.yichip.com/sy',
+        tags: [''],
       },  
       {
         name: 'IMPINJ',
@@ -471,7 +478,15 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/anyid.png',
         href: 'http://www.anyid.com.cn/index.html',
         tags: [''],
-      },             
+      }, 
+      {
+        name: '上海营信信息',
+        desc: '高频/超高频读写器，智能柜',
+        logo: '/img/website/nxprfid.png',
+        href: 'http://www.nxprfid.com/',
+        tags: [''],
+      }, 
+
       //广州
       {
         name: '安的电子',
@@ -569,8 +584,6 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.zebra.cn/cn/zh.html',
         tags: [''],
       },  
-    
-      
     ],
   },
 
