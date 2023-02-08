@@ -79,7 +79,25 @@ export const projects: Project[] = [
     source: 'https://gitee.com/openLuat',
     tags: ['opensource', 'rtos'],
     type: 'OS',
-},        
+},  
+{
+    title: 'LK',
+    description: 'LK(Little Kernel)嵌入式OS',
+    preview: 'img/website/lk.png',
+    source: 'https://github.com/littlekernel/lk',
+    tags: ['opensource', 'rtos'],
+    type: 'OS',
+},   
+
+{
+    title: 'PX5RTOS',
+    description: '第5代RTOS系统',
+    preview: 'img/website/PX5RTOS.png',
+    website: 'https://px5rtos.com/',
+    tags: ['opensource', 'rtos'],
+    type: 'OS',
+}, 
+
 {
     title: 'MicroPython中文社区',
     description: 'micropthon中文论坛，microbit开源项目。',
@@ -151,6 +169,15 @@ export const projects: Project[] = [
     tags: ['opensource', 'favorite'],
     type: 'Others',
 },    
+{
+    title: 'ZSWatch',
+    description: '基于Zephyr的智能手表设计',
+    preview: 'img/website/zswatch.png',
+    source: 'https://github.com/jakkra/ZSWatch',
+    tags: ['opensource', 'favorite'],
+    type: 'Others',
+}, 
+
 {
     title: '卡西欧腕表复刻',
     description: '开源腕表方案，了解下其低功耗处理',

@@ -43,6 +43,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },   
       {
+        name: 'Hexed',
+        desc: 'HEX在线查看与编辑',
+        logo: '/img/website/hexed.png',
+        href: 'https://hexed.it/',
+        tags: [''],
+      },       
+      {
         name: '鸠摩搜书',
         desc: '电子书下载的天堂，极力推荐',
         logo: '/img/website/jiumo.png',
