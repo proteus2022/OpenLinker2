@@ -39,6 +39,18 @@ const sidebars = {
         'document/安全芯片/HY5950&HY5960',
       ],
     },
+    {
+      label: '行业终端',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'document/行业终端/高性能边缘计算网关HYP3000',
+        'document/行业终端/高性能边缘计算网关HYP3001',
+        'document/行业终端/多功能身份核验终端HYP9000',
+      ],
+    }, 
   ],  
   solution: [         //解决方案
     'solution/introduction',

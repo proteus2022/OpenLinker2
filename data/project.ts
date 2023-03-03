@@ -312,6 +312,16 @@ export const projects: Project[] = [
     type: 'Others',
 },   
 {
+    title: '轻量型C++界面开发框架ImGui',
+    description: 'Dear ImGui 是一个用于C++的轻量型图形用户界面库。快速、可移植、与渲染器无关的，且独立没有外部依赖关系。',
+    preview: 'img/website/imgui.png',
+    //website: 'https://github.com/tezc/sc',
+    source: 'https://github.com/ocornut/imgui',
+    tags: ['opensource', 'favorite'],
+    type: 'Others',
+},
+
+{
     title: 'wujique',
     description: 'stm32入门教程、驱动库、电阻触摸屏驱动',
     preview: 'img/website/wujique.png',
