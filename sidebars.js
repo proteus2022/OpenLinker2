@@ -52,6 +52,26 @@ const sidebars = {
         'document/行业终端/多功能身份核验终端HYP9000',
       ],
     }, 
+    {
+      label: '工控主板',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'document/工控主板/工业控制主板HYB3568',        
+      ],
+    },    
+    {
+      label: '核心板',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'document/核心板/MT6762',        
+      ],
+    },      
   ],  
   solution: [         //解决方案
     'solution/introduction',
