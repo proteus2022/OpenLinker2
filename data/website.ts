@@ -691,7 +691,7 @@ export const websiteData: WebsiteCategory[] = [
         desc: 'MCU、MAC+PHY、SAFE',
         logo: '/img/website/microchip2.png',
         href: 'https://www.microchip.com/',
-        tags: [''],
+        tags: ['安全'],
       },
       {
         name: 'ST',
@@ -769,7 +769,35 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/hpmicro.png',
         href: 'https://www.hpmicro.com/',
         tags: [''],
-      },                             
+      },    
+      {
+        name: '深圳模微',
+        desc: '安全',
+        logo: '/img/website/modsemi.png',
+        href: 'https://www.modsemi.com/',
+        tags: ['安全'],
+      },   
+      {
+        name: '北京宏思',
+        desc: '安全',
+        logo: '/img/website/hongsi.png',
+        href: 'http://www.hongsi-ic.com/',
+        tags: ['安全'],
+      },
+      {
+        name: '上海航芯',
+        desc: '安全',
+        logo: '/img/website/aisinochip.png',
+        href: 'http://www.aisinochip.com/',
+        tags: ['安全'],
+      },    
+      {
+        name: '武汉瑞纳捷',
+        desc: '安全',
+        logo: '/img/website/runjetic.png',
+        href: 'https://www.runjetic.com/',
+        tags: ['安全'],
+      },                                                          
     ],
   },
   {
@@ -1269,7 +1297,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'Font Awesome',
         desc: '在您的网站上使用Font Awesome展示矢量图标和社交标志，这可是网络上最流行的图标集和工具包。',
-        logo: 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1610874224065-%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A120210117-170325@2x.png',
+        logo: '/img/website/fontawesome.png',
         href: 'https://fa5.dashgame.com',
         tags: ['图标'],
       },
@@ -1290,7 +1318,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'Shields.io',
         desc: '为你的开源项目生成高质量小徽章图标',
-        logo: 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1617853921212-6254238.png',
+        logo: '/img/website/shieldsio.png',
         href: 'https://shields.io/',
         tags: ['图标', '首页'],
       },

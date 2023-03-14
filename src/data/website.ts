@@ -663,21 +663,21 @@ export const websiteData: WebsiteCategory[] = [
         desc: 'MCU、MPU、RFID',
         logo: '/img/website/nxp.png',
         href: 'https://www.nxp.com/',
-        tags: [''],
+        tags: ['安全'],
       },
       {
         name: 'Microchip',
         desc: 'MCU、MAC+PHY、SAFE',
         logo: '/img/website/microchip2.png',
         href: 'https://www.microchip.com/',
-        tags: [''],
+        tags: ['安全'],
       },
       {
         name: 'ST',
         desc: 'MCU、RFID',
         logo: '/img/website/stsemi.png',
         href: 'https://www.st.com/',
-        tags: [''],
+        tags: ['安全'],
       },
       {
         name: 'Renesas',
@@ -698,7 +698,7 @@ export const websiteData: WebsiteCategory[] = [
         desc: 'MCU、触摸、存储',
         logo: '/img/website/infineon.png',
         href: 'https://www.infineon.com/cms/cn/',
-        tags: [''],
+        tags: ['安全'],
       },
       {
         name: 'nuvoton',
@@ -719,7 +719,7 @@ export const websiteData: WebsiteCategory[] = [
         desc: 'MCU',
         logo: '/img/website/nation.png',
         href: 'https://www.nationstech.com/',
-        tags: [''],
+        tags: ['安全'],
       },     
       {
         name: '南京沁恒',
@@ -733,7 +733,7 @@ export const websiteData: WebsiteCategory[] = [
         desc: 'MCU、安全',
         logo: '/img/website/hdsc.png',
         href: 'https://www.hdsc.com.cn/',
-        tags: [''],
+        tags: ['安全'],
       },   
       {
         name: '乐鑫',
@@ -1269,7 +1269,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'Shields.io',
         desc: '为你的开源项目生成高质量小徽章图标',
-        logo: 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/1617853921212-6254238.png',
+        logo: logo: '/img/website/shieldsio.png',,
         href: 'https://shields.io/',
         tags: ['图标', '首页'],
       },
