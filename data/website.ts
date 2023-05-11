@@ -295,6 +295,20 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },  
       {
+        name: 'Alien',
+        desc: 'EPC标签芯片,读写器芯片',
+        logo: '/img/website/alien.png',
+        href: 'https://www.alientechnology.com/',
+        tags: [''],
+      }, 
+      {
+        name: 'EM',
+        desc: '标签芯片，读写器芯片',
+        logo: '/img/website/em.png',
+        href: 'https://www.emmicroelectronic.com/',
+        tags: [''],
+      },       
+      {
         name: 'PHYCHIPS',
         desc: '读写器芯片',
         logo: '/img/website/phychips.png',
