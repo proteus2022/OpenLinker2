@@ -487,14 +487,14 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },     
       {
-        name: '上海普阅',
+        name: '阿法迪',
         desc: '上海，UHF，读写器',
         logo: '/img/website/shrfid.png',
         href: 'http://www.sh-rfid.com/index.aspx',
         tags: [''],
       },   
       {
-        name: '阿法迪',
+        name: '上海普阅',
         desc: '上海，解决方案',
         logo: '/img/website/anyid.png',
         href: 'http://www.anyid.com.cn/index.html',
