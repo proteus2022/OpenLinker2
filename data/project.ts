@@ -322,6 +322,16 @@ export const projects: Project[] = [
 },
 
 {
+    title: '面向MCU的小型前后台系统',
+    description: '提供消息、事件等服务，以及软件定时器，低功耗管理，按键，led等常用功能模块。',
+    preview: 'img/website/jxos.png',
+    //website: 'https://github.com/tezc/sc',
+    source: 'https://gitee.com/jeremyceng/JxOS/tree/master',
+    tags: ['opensource', 'favorite'],
+    type: 'Others',
+},
+
+{
     title: 'wujique',
     description: 'stm32入门教程、驱动库、电阻触摸屏驱动',
     preview: 'img/website/wujique.png',

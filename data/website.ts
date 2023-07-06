@@ -1166,7 +1166,14 @@ export const websiteData: WebsiteCategory[] = [
       logo: '/img/website/easylinkin.png',
       href: 'http://easylinkin.com/index.aspx',
       tags: [''],
-    },                   
+    },        
+    {
+      name: '迈威',
+      desc: '',
+      logo: '/img/website/maiwe.png',
+      href: 'https://www.maiwe.com.cn/',
+      tags: [''],
+    },                      
     ],
   },  
   {   
