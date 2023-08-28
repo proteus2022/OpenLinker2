@@ -328,7 +328,7 @@ export const projects: Project[] = [
     //website: 'https://github.com/tezc/sc',
     source: 'https://gitee.com/jeremyceng/JxOS/tree/master',
     tags: ['opensource', 'favorite'],
-    type: 'Others',
+    type: 'OS',
 },
 
 {
