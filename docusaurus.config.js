@@ -1,5 +1,5 @@
 const path = require('path')
-const beian = '鲁ICP备2022025773'
+const beian = '鲁ICP备2022025773号'
 
 //const announcementBarContent = `🌟更新 2022 年终总结`;
 
