@@ -47,7 +47,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/jiumo.png',
         href: 'https://www.jiumodiary.com/',
         tags: [''],
-      },                
+      },   
+      {
+        name: '软件下载站',
+        desc: '各自常用软件下载',
+        logo: 'https://www.emojiall.com/apple-touch-icon.png',
+        href: 'https://docs.qq.com/sheet/DVEtsa29yeVptZVpC?tab=BB08J2&tab=BB08J4',
+        tags: [''],
+      },                    
       {
         name: 'GitHub',
         desc: '全球最大的软件项目托管平台，发现优质开源项目',
