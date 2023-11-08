@@ -5,7 +5,7 @@ const beian = '鲁ICP备2022025773号'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OpenLinker',
+  title: '个人生活笔记',
   titleDelimiter: '-',
   url: 'https://openlinker.cn',
   baseUrl: '/',
