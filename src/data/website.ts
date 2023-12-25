@@ -1260,6 +1260,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['图标'],
       },
       {
+        name: 'Font Meme',
+        desc: '支持字体识别的网站，而且可以转换生成各种特效字体和文字图片。',
+        logo: '/img/website/fontmeme.png',
+        href: 'https://fontmeme.com/zh/',
+        tags: ['图标'],
+      },      
+      {
         name: 'feathericons',
         desc: '简单美丽的开源图标',
         logo: 'https://feathericons.com/favicon.ico',
@@ -1276,7 +1283,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'Shields.io',
         desc: '为你的开源项目生成高质量小徽章图标',
-        logo: logo: '/img/website/shieldsio.png',,
+        logo: '/img/website/shieldsio.png',
         href: 'https://shields.io/',
         tags: ['图标', '首页'],
       },
