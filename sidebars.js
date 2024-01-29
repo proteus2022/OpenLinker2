@@ -40,6 +40,21 @@ const sidebars = {
       ],
     },
     {
+      label: '身份证阅读器',
+      type: 'category',
+      link: {
+        type: 'generated-index',
+      },
+      items: [
+        'document/身份证阅读器/HYC-100',
+        'document/身份证阅读器/HYC-600',
+        'document/身份证阅读器/HYC-700',
+        'document/身份证阅读器/HYS-100',
+        'document/身份证阅读器/HYS-940',
+        'document/身份证阅读器/HYS-980',
+      ],
+    },    
+    {
       label: '行业终端',
       type: 'category',
       link: {
@@ -49,7 +64,6 @@ const sidebars = {
         'document/行业终端/高性价比工控主机HYP2000',        
         'document/行业终端/高性能边缘计算网关HYP3000',
         'document/行业终端/高性能边缘计算网关HYP3001',
-        'document/行业终端/多功能身份核验终端HYP9000',
       ],
     }, 
     {
