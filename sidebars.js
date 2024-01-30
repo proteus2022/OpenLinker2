@@ -52,6 +52,7 @@ const sidebars = {
         'document/身份证阅读器/HYS-100',
         'document/身份证阅读器/HYS-940',
         'document/身份证阅读器/HYS-980',
+        'document/身份证阅读器/HYS-701',        
       ],
     },    
     {
