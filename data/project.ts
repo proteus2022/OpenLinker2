@@ -374,6 +374,14 @@ export const projects: Project[] = [
     tags: ['opensource','favorite'],
     type: 'OS',
 }, 
+{
+    title: 'buspirate',
+    description: '串口、SPI、I2C、1-Wire开发工具,基于RP2040，带液晶显示，利用VT100上位机',
+    preview: 'img/website/buspirate.png',
+    website: 'https://hardware.buspirate.com/',
+    tags: ['opensource','favorite'],
+    type: 'Tools',
+}, 
 ]
 
 export type Tag = {
@@ -391,7 +399,8 @@ export type TagType =
 export type ProjectType =
   | 'OS'
   | 'Others'
-  | 'Info';
+  | 'Info'
+    'Tools';
 
 export type Project = {
   title: string;
