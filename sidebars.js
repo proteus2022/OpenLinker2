@@ -96,26 +96,17 @@ const sidebars = {
   opensource: [         //开源项目
     'opensource/introduction',
     {
-      label: 'OpenLinker_NUC980',
+      label: '嵌入式开发资源',
       type: 'category',
       link: {
         type: 'generated-index',
       },
       items: [
-        'opensource/OpenLinker_NUC980/pinia',
+        'opensource/Embeded_Source/hardware',
+        'opensource/Embeded_Source/software',
+        'opensource/Embeded_Source/others',
       ],
     },
-    {
-      label: '开发板配件',
-      type: 'category',
-      link: {
-        type: 'generated-index',
-      },
-      items: [
-        'opensource/开发板配件/3.5寸LCD+电容触摸',
-        'opensource/开发板配件/5寸LCD+电容触摸',
-      ],
-    },    
    
   ],
   share: [                   //资源分享
