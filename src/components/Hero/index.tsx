@@ -29,7 +29,7 @@ function Hero() {
         <animated.div style={trails[0]} className={styles.hero_text}>
           <Translate id="homepage.hero.greet">欢迎访问 </Translate>
           <span className={styles.intro__name}>
-            <Translate id="homepage.hero.name">OpenLinker</Translate>
+            <Translate id="homepage.hero.name">openlinker.top</Translate>
           </span>
         </animated.div>
         <animated.p style={trails[1]}>
