@@ -102,7 +102,7 @@ export const websiteData: WebsiteCategory[] = [
         name: 'JSON Visio',
         desc: '可视化JSON编辑',
         logo: '/img/website/jsonvisio.png',
-        href: 'https://jsonvisio.com/',
+        href: 'https://jsoncrack.com/',
         tags: [''],
       },          
       {
@@ -378,14 +378,7 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/vanch.png',
         href: 'http://www.vanch.cn/',
         tags: [''],
-      },      
-      {
-        name: '新思物联',
-        desc: '深圳，UHF,各种终端及方案',
-        logo: '/img/website/sysiot.png',
-        href: 'http://www.sysiot.cn/',
-        tags: [''],
-      },        
+      },           
       {
         name: '中控迪优',
         desc: '深圳，各种读写器',
@@ -420,14 +413,7 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/supoin.png',
         href: 'http://www.supoin.com/',
         tags: [''],
-      },       
-      {
-        name: '瑞德物联',
-        desc: '深圳，RFID资产定位，数字化标识与精准定位',
-        logo: '/img/website/readiot.png',
-        href: 'http://www.readiot.com/',
-        tags: [''],
-      },         
+      },               
       {
         name: '捷通',
         desc: '深圳，各种读写器，小公司',
@@ -471,14 +457,7 @@ export const websiteData: WebsiteCategory[] = [
         tags: [''],
       },      
 
-      //上海
-      {
-        name: '英内物联',
-        desc: '上海，UHF，标签，硬件，系统',
-        logo: '/img/website/inlalink.png',
-        href: 'https://www.inlaylink.com/cn/',
-        tags: [''],
-      },  
+      //上海 
       {
         name: '浚蔚电子',
         desc: '上海，读写器、网关、IO',
@@ -589,13 +568,6 @@ export const websiteData: WebsiteCategory[] = [
         href: 'http://www.rfadtech.com/',
         tags: [''],
       },   
-      {
-        name: '德鑫物联',
-        desc: '北京，标签生产设备，高端装备',
-        logo: '/img/website/dexinquan.png',
-        href: 'http://www.dexinquan.com/zh-cn/homepage/default.shtml',
-        tags: [''],
-      },  
 
       //国际
       {
@@ -989,14 +961,14 @@ export const websiteData: WebsiteCategory[] = [
         name: '塔石',
         desc: '',
         logo: '/img/website/tastek.png',
-        href: 'https://www.tastek.cn/index.html',
+        href: 'https://www.tastek.cn',
         tags: [''],
       },  
       {
         name: '繁易',
         desc: '工控终端',
         logo: '/img/website/flexem.png',
-        href: 'https://www.flexem.cn/Index.html',
+        href: 'https://www.flexem.cn',
         tags: [''],
       },  
     //苏州
@@ -1053,14 +1025,7 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/iotrouter.png',
         href: 'https://www.iotrouter.com/',
         tags: [''],
-      },             
-      {
-        name: '金鸽科技',
-        desc: '',
-        logo: '/img/website/4giot.png',
-        href: 'https://www.4g-iot.com/',
-        tags: [''],
-      },   
+      },               
       {
         name: '众山科技',
         desc: '',

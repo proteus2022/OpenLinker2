@@ -112,11 +112,11 @@ const config = {
             /*{
               label: '关于我',
               to: '/about',
-            },*/
+            },
             {
               label: 'GitHub',
               href: 'https://github.com/proteus2022',
-            },
+            },*/
            /* {
               label: '掘金',
               href: 'https://csdn.net/ss_302',
