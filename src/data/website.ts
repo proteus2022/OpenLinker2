@@ -257,7 +257,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/eetchina.png',
         href: 'https://mbb.eet-china.com/',
         tags: [''],
-      },                                       
+      },   
+      {
+        name: '全国大学生智能汽车竞赛',
+        desc: '全国大学生智能汽车竞赛',
+        logo: '/img/website/smartcarrace.jpg',
+        href: 'http://www.smartcarrace.com/',
+        tags: [''],
+      },                                            
     ],
   },  
 
