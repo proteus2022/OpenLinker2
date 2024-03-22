@@ -382,6 +382,16 @@ export const projects: Project[] = [
     tags: ['opensource','favorite'],
     type: 'Tools',
 }, 
+{
+    title: 'Mongoose OS',
+    description: 'Mongoose OS是一个专为物联网设备开发的固件开发框架。',
+    preview: 'img/website/mongoose.jpg',
+    website: 'https://mongoose-os.com/',
+    source: 'https://github.com/cesanta/mongoose-os',
+    tags: ['opensource', 'favorite'],
+    type: 'OS',
+},
+
 ]
 
 export type Tag = {
