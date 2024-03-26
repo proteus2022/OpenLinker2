@@ -766,7 +766,7 @@ export const websiteData: WebsiteCategory[] = [
     ],
   },
   {
-    name: '免费PCB设计软件',
+    name: 'PCB设计',
     websites: [
       {
         name: 'Kicad',
