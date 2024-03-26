@@ -355,7 +355,7 @@ export const projects: Project[] = [
     website: 'https://imhex.werwolv.net/',
     source: 'https://github.com/WerWolv/ImHex',    
     tags: ['opensource'],
-    type: 'Others',
+    type: 'Tools',
 },  
 {
     title: 'OSHWA',

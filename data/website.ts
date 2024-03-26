@@ -264,7 +264,7 @@ export const websiteData: WebsiteCategory[] = [
 
 
   {  
-    name: '电子书下载',
+    name: '电子书',
     websites: [
       {
         name: '鸠摩搜书',
@@ -539,7 +539,7 @@ export const websiteData: WebsiteCategory[] = [
     ],
   },   
   {
-    name: '开发板厂家',
+    name: '开发板',
     websites: [
       {
         name: '野火',
@@ -600,7 +600,7 @@ export const websiteData: WebsiteCategory[] = [
     ],
   },
   {
-    name: '物联网厂家',
+    name: '物联网',
     websites: [
       {
         name: '有人物联网',
@@ -861,7 +861,7 @@ export const websiteData: WebsiteCategory[] = [
     ],
   },  
   {   
-    name: '嵌入式GUI',
+    name: 'GUI',
     websites: [
       {
         name: 'LVGL',
