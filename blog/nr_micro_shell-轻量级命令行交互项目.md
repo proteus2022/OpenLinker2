@@ -1,5 +1,5 @@
 ---
-title: nr_micro_shell - 轻量级单片机命令行交互项目
+title: nr_micro_shell ： 轻量级单片机命令行交互项目
 date: 2024-03-18
 authors: 转载
 tags: [其他]
