@@ -149,7 +149,7 @@ export const projects: Project[] = [
     website: 'https://serial-studio.github.io/',
     source: 'https://github.com/Serial-Studio/Serial-Studio',
     tags: ['opensource'],
-    type: 'Others',
+    type: 'Tools',
 },
 {
     title: 'X-TRACK自行车码表',
