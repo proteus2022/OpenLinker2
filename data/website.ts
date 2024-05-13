@@ -280,15 +280,7 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/freecomputerbooks.jpg',
         href: 'https://freecomputerbooks.com/',
         tags: [''],
-      },    
-
-      {
-        name: '无名图书',
-        desc: '各类电子书籍免费下载',
-        logo: '/img/website/wuming.png',
-        href: 'https://www.book123.info/',
-        tags: [''],
-      },   
+      },       
       {
         name: 'Java知识分享网',
         desc: 'Java、Android等电子书籍免费下载',

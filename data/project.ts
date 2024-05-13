@@ -140,7 +140,7 @@ export const projects: Project[] = [
     website: 'https://canable.io/',
     source: 'https://github.com/HubertD/candleLight',    
     tags: ['opensource', 'favorite'],
-    type: 'Others',
+    type: 'Tools',
 },  
 {
     title: 'Serial-Studio',
@@ -391,7 +391,14 @@ export const projects: Project[] = [
     tags: ['opensource', 'favorite'],
     type: 'OS',
 },
-
+{
+    title: 'vsailorproject',
+    description: 'QT的串口示波器，支持串口、TCP、波形显示、通信协议',
+    preview: 'img/website/vsailorproject.jpg',
+    source: 'https://github.com/vseasky/vsailorproject',    
+    tags: ['opensource'],
+    type: 'Tools',
+},  
 ]
 
 export type Tag = {
