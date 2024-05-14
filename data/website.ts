@@ -358,6 +358,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: [],
       },
       {
+        name: '嵌入式技术专业人才认证',
+        desc: '联合中国电子学会开展的嵌入式技术专业人才培训项目',
+        logo: '/img/website/eetalent.jpg',
+        href: 'http://www.eetalent.com.cn/',
+        tags: [],
+      },          
+      {
         name: 'doyoudo',
         desc: '视频剪辑、PS、3D、工业设计的软件视频',
         logo: '/img/website/doyoudo.png',
