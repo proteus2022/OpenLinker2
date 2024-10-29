@@ -262,6 +262,39 @@ export const websiteData: WebsiteCategory[] = [
     ],
   },  
 
+  {  
+    name: '专利检索',
+    websites: [
+      {
+        name: '知识产权综合服务平台',
+        desc: '粤港澳创新创业知识产权综合服务平台',
+        logo: '/img/website/gbaipr.png',
+        href: 'http://gbaipr.cn',
+        tags: [''],
+      },    
+
+      {
+        name: '国知局专利检索',
+        desc: '国知局专利检索及分析',
+        logo: '/img/website/cnipa.png',
+        href: 'https://pss-system.cponline.cnipa.gov.cn/',
+        tags: [''],
+      },        
+    ],
+  },      
+
+  {  
+    name: '人工智能',
+    websites: [
+      {
+        name: 'AI图片生成',
+        desc: 'AI Image Generator',
+        logo: '/img/website/stabledifffusion.png',
+        href: 'https://stabledifffusion.com/',
+        tags: [''],
+      },     
+    ],
+  },    
 
   {  
     name: '电子书',
