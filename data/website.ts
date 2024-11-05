@@ -293,6 +293,13 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://stabledifffusion.com/',
         tags: [''],
       },     
+      {
+        name: 'SiPEED',
+        desc: '矽速科技，AI开源软硬件及模型训练平台',
+        logo: '/img/website/sipeed.jpg',
+        href: 'https://sipeed.com/',
+        tags: [''],
+      },        
     ],
   },    
 
