@@ -263,7 +263,7 @@ export const websiteData: WebsiteCategory[] = [
   },  
 
   {  
-    name: '专利检索',
+    name: '标准与知识产权',
     websites: [
       {
         name: '知识产权综合服务平台',
@@ -279,7 +279,15 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/cnipa.png',
         href: 'https://pss-system.cponline.cnipa.gov.cn/',
         tags: [''],
-      },        
+      },  
+
+      {
+        name: '国标查询',
+        desc: '国家标准全文公开系统',
+        logo: '/img/website/openstd.jpg',
+        href: 'https://openstd.samr.gov.cn/bzgk/gb/',
+        tags: [''],
+      },             
     ],
   },      
 
