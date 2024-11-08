@@ -556,7 +556,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/runjetic.png',
         href: 'https://www.runjetic.com/',
         tags: ['安全'],
-      },                                                          
+      },   
+      {
+        name: '嘉楠科技',
+        desc: 'AI芯片',
+        logo: '/img/website/canaan.png',
+        href: 'https://www.canaan-creative.com/',
+        tags: ['安全'],
+      },                                                              
     ],
   },
   {
