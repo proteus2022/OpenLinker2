@@ -307,7 +307,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/sipeed.jpg',
         href: 'https://sipeed.com/',
         tags: [''],
-      },        
+      },    
+      {
+        name: '百问网人工智能专区',
+        desc: '人工智能基础、嘉楠K230、K510开发文档',
+        logo: '/img/website/100ask.png',
+        href: 'https://eai.100ask.net/ELinuxAIBase/BoardIntroduction-1',
+        tags: [''],
+      },       
     ],
   },    
 
