@@ -399,6 +399,17 @@ export const projects: Project[] = [
     tags: ['opensource'],
     type: 'Tools',
 },  
+
+{
+    title: '微型赛车',
+    description: '开源小车方案，ESP32，蓝牙控制',
+    preview: 'img/project/racer.png',
+    //website: 'https://github.com/joeycastillo/Sensor-Watch',
+    source: 'https://github.com/StuckAtPrototype/Racer',
+    tags: ['opensource'],
+    type: 'Others',
+},     
+
 ]
 
 export type Tag = {

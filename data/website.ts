@@ -1412,7 +1412,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: '渐变色网站',
         desc: '数百万个自动生成的渐变的网站',
-        logo: 'https://gradihunt.com/favicon.ico',
+        logo: '/img/website/favicon.jpeg',
         href: 'https://gradihunt.com/',
         tags: ['配色', '背景'],
       },
@@ -1423,6 +1423,13 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://webgradients.com',
         tags: ['配色', '背景'],
       },
+      {
+        name: '应用配色网站',
+        desc: '可生成各种应用配色方案',
+        logo: '/img/website/aicolors.png',
+        href: 'https://aicolors.co/',
+        tags: ['配色', '背景'],
+      },     
       // {
       //   name: '谷歌字体',
       //   desc: '一个生成渐变色背景的网站',
