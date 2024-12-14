@@ -2,7 +2,7 @@
 const sidebars = {
   document: [
     'document/introduction',
-    {
+    /*{
       label: '智能卡',
       type: 'category',
       link: {
@@ -76,7 +76,7 @@ const sidebars = {
       items: [
         'document/工控主板/工业控制主板HYB3568',        
       ],
-    },    
+    },*/    
     {
       label: '核心板',
       type: 'category',
@@ -90,7 +90,7 @@ const sidebars = {
   ],  
   solution: [         //解决方案
     'solution/introduction',
-    'solution/智能档案管理系统',
+    //'solution/智能档案管理系统',
   ],
 
   opensource: [         //开源项目
