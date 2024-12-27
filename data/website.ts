@@ -346,7 +346,7 @@ export const websiteData: WebsiteCategory[] = [
       },         
       {
         name: 'MilkV',
-        desc: 'SG2002/GS2000',
+        desc: 'SG2002/SG2000',
         logo: '/img/website/milkv.png',
         href: 'https://milkv.io/zh/',
         tags: [''],
