@@ -336,6 +336,13 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.allwinnertech.com/',
         tags: [''],
       },   
+      {
+        name: '君正',
+        desc: 'T31/T40/X2000',
+        logo: '/img/website/ingenic.png',
+        href: 'https://www.ingenic.com.cn/',
+        tags: [''],
+      },   
 
       {
         name: '齐感科技',
