@@ -295,6 +295,13 @@ export const websiteData: WebsiteCategory[] = [
     name: '人工智能',
     websites: [
       {
+        name: '动手学深度学习',
+        desc: '深度学习经典图书，共两版',
+        logo: '/img/website/zh-v1d2l.png',
+        href: 'https://zh-v1.d2l.ai/',
+        tags: [''],
+      },           
+      {
         name: 'AI图片生成',
         desc: 'AI Image Generator',
         logo: '/img/website/stabledifffusion.png',
