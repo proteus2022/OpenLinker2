@@ -378,7 +378,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/tsingmicro.png',
         href: 'http://www.tsingmicro.com/',
         tags: [''],
-      },              
+      },  
+      {
+        name: '虹软视觉开放平台',
+        desc: '人脸识别/行为分析算法',
+        logo: '/img/website/arcsoft.png',
+        href: 'https://ai.arcsoft.com.cn/',
+        tags: [''],
+      },                    
     ],
   },    
 
