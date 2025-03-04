@@ -24,6 +24,7 @@ https://hackaday.com/2024/11/04/supercon-2024-badge-add-on-winners/
 
 ### TI计算软件ANALOG-ENGINEER
 主要用于运放，比较器，数据转换，噪声，PCB，传感器，I2C上拉计算等
+
 https://www.ti.com/tool/download/ANALOG-ENGINEER-CALC
 
 ### 村田分享的工业设备的抗干扰能力提升方法

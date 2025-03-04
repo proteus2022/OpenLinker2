@@ -13,8 +13,10 @@ tags: [others]
 
 ### Unicode算法
 含编解码，大小写转换，文本分割，排序和文本压缩解压。
-下载：https://github.com/railgunlabs/unicorn/
-案例：https://railgunlabs.com/unicorn/manual/code-examples/
+下载：
+https://github.com/railgunlabs/unicorn/
+案例：
+https://railgunlabs.com/unicorn/manual/code-examples/
 
 
 ### AI读取水表数
