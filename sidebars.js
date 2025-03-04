@@ -104,6 +104,9 @@ const sidebars = {
       items: [
         'opensource/Embeded_Source/hardware',
         'opensource/Embeded_Source/software',
+        'opensource/Embeded_Source/gui',
+        'opensource/Embeded_Source/rtos',
+        'opensource/Embeded_Source/security',
         'opensource/Embeded_Source/others',
       ],
     },
