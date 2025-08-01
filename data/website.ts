@@ -251,7 +251,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/eetchina.png',
         href: 'https://mbb.eet-china.com/',
         tags: [''],
-      },      
+      },
+      {
+        name: '充电头',
+        desc: '电源相关资讯',
+        logo: '/img/website/chongdiantou.png',
+        href: 'https://www.chongdiantou.com/',
+        tags: [''],
+      },            
       {
         name: '全国大学生智能汽车竞赛',
         desc: '全国大学生智能汽车竞赛',
