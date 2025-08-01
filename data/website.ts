@@ -41,7 +41,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/zaixiantool.png',
         href: 'https://tool.lu/',
         tags: [''],
-      },   
+      },  
+      {
+        name: 'figma',
+        desc: '原型设计',
+        logo: '/img/website/figma1.png',
+        href: 'https://www.figma.com/',
+        tags: [''],
+      },       
       {
         name: 'Hexed',
         desc: 'HEX在线查看与编辑',
