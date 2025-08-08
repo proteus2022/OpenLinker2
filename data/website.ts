@@ -314,7 +314,21 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/zh-v1d2l.png',
         href: 'https://zh-v1.d2l.ai/',
         tags: [''],
-      },           
+      },
+      {
+        name: 'Numpy',
+        desc: '用于 Python 科学计算的基础包',
+        logo: '/img/website/numpy.png',
+        href: 'https://numpy.com.cn/',
+        tags: [''],
+      },
+      {
+        name: 'matplotlib',
+        desc: '使用 Python 进行可视化',
+        logo: '/img/website/matplotlib.png',
+        href: 'https://www.matplotlib.net/',
+        tags: [''],
+      },                        
       {
         name: 'AI图片生成',
         desc: 'AI Image Generator',
