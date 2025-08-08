@@ -335,7 +335,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/stabledifffusion.png',
         href: 'https://stabledifffusion.com/',
         tags: [''],
-      },     
+      },  
+      {
+        name: '智驱力',
+        desc: 'AI Box方案提供商',
+        logo: '/img/website/aidrive.png',
+        href: 'https://bbs.aidrive-tech.com/index',
+        tags: [''],
+      },          
       {
         name: '百问网人工智能专区',
         desc: '人工智能基础、嘉楠K230、K510开发文档',
