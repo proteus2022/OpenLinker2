@@ -5,14 +5,14 @@ const beian = '鲁ICP备2022025773号'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '嵌入式开发资讯',
+  title: 'AIOT',
   titleDelimiter: '-',
   url: 'https://openlinker.cn',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'openlinker',
   projectName: 'blog',
-  tagline: '记录所学知识，领略编程之美',
+  tagline: '人',
   onBrokenLinks: 'warn',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
@@ -248,34 +248,7 @@ const config = {
       },
     ],
 
-    [
-      '@docusaurus/plugin-pwa',
-      {
-        debug: true,
-        offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
-        ],
-        pwaHead: [
-          {
-            tagName: 'link',
-            rel: 'icon',
-            href: '/img/logo.png',
-          },
-          {
-            tagName: 'link',
-            rel: 'manifest',
-            href: '/manifest.json',
-          },
-          {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: 'rgb(51 139 255)',
-          },
-        ],
-      },
-    ],
+
   ],
   stylesheets: [],
   i18n: {
