@@ -140,8 +140,6 @@ const config = {
     },
 
     prism: {
-      theme: require('prism-react-renderer/themes/vsLight'),
-      darkTheme: require('prism-react-renderer/themes/vsDark'),
       additionalLanguages: ['java', 'php', 'rust', 'toml'],
       defaultLanguage: 'javascript',
       magicComments: [
@@ -249,12 +247,7 @@ const config = {
         },
       },
     ],
-    [
-      '@docusaurus/plugin-ideal-image',
-      {
-        disableInDev: false,
-      },
-    ],
+
     [
       '@docusaurus/plugin-pwa',
       {

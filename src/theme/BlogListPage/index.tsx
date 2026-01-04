@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import React from 'react';
 
 import Link from '@docusaurus/Link';
-import Image from '@theme/IdealImage';
+// import Image from '@theme/Image'; // Removed in Docusaurus 3.x
 import {
   HtmlClassNameProvider, PageMetadata, ThemeClassNames
 } from '@docusaurus/theme-common';
@@ -124,7 +124,7 @@ function BlogRecommend({ isPaginated, isCardView }: { isPaginated: boolean, isCa
                     <li className={clsx('card')} key={post.permalink}>
                       {post.frontMatter.image && (
                         <div className={clsx('card__image')}>
-                          <Image src={post.frontMatter.image!} alt={post.title} img={''} />
+                          <img src={post.frontMatter.image!} alt={post.title} />
                         </div>
                       )}
                       <div className="card__body">

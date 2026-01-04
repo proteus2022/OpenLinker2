@@ -1,7 +1,7 @@
 import React from 'react';
 import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
-import Image from '@theme/IdealImage';
+import Image from '@theme/Image';
 import clsx from 'clsx';
 
 const Playgrounds = [
