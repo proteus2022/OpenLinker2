@@ -171,12 +171,7 @@ const config = {
       },
       config: {},
     },
-    matomo: {      //网站统计分析功能
-      matomoUrl: 'https://matomo.nouse.cn/',
-      siteId: '1',
-      phpLoader: 'matomo.php',
-      jsLoader: 'matomo.js',
-    }, 
+     
     giscus: {   //blog评论
       repo: 'proteus2022/OpenLinker2',
       repoId: 'R_kgDOHsvN3A',
@@ -213,7 +208,7 @@ const config = {
           priority: 0.5,
         },
         gtag: {
-          trackingID: 'G-S4SD5NXWXF',
+          trackingID: 'G-JB0M6PSKS1',
           anonymizeIP: true,
         },
         // debug: true,
@@ -222,7 +217,6 @@ const config = {
   ],
   themes: ['@docusaurus/theme-live-codeblock'],
   plugins: [
-    'docusaurus-plugin-matomo',
     'docusaurus-plugin-image-zoom',
     'docusaurus-plugin-sass',
     path.resolve(__dirname, './src/plugin/plugin-baidu-tongji'),

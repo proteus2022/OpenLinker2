@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client';
-import EditThisPage from '@theme/EditThisPage';
+
 import TagsListInline from '@theme/TagsListInline';
 import Tag from '@theme/Tag';
 import ReadMoreLink from '@theme/BlogPostItem/Footer/ReadMoreLink';
@@ -99,11 +99,7 @@ export default function BlogPostItemFooter(): JSX.Element | null {
         </div>
       )}
 
-      {isBlogPostPage && editUrl && (
-        <div className="col margin-top--sm">
-          <EditThisPage editUrl={editUrl} />
-        </div>
-      )}
+      
 
       {truncatedPost && (
         <div
