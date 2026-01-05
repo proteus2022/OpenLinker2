@@ -258,6 +258,9 @@ const config = {
       en: {
         htmlLang: 'en-GB',
       },
+      zh: {
+        htmlLang: 'zh-Hans',
+      }      
     },
   },
 };
