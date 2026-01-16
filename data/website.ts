@@ -1629,6 +1629,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['图标'],
       },
       {
+        name: 'icon-icons',
+        desc: '简单美丽的开源图标',
+        logo: '/img/website/icon-icons.png',
+        href: 'https://icon-icons.com/',
+        tags: ['图标'],
+      },      
+      {
         name: 'undraw',
         desc: '一个不断更新的设计项目与美丽的SVG图像，使用完全免费',
         logo: 'https://undraw.co/apple-touch-icon.png',
@@ -1656,6 +1663,14 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.emojiall.com/zh-hans',
         tags: ['图标', 'emoji'],
       },
+      {
+        name: 'freepik',
+        desc: '图片、动画',
+        logo: '/img/website/freepik.png',
+        href: 'https://www.freepik.com/',
+        tags: ['图标'],
+      },      
+      
       {
         name: '渐变色网站',
         desc: '数百万个自动生成的渐变的网站',
