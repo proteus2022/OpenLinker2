@@ -147,7 +147,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/hailuoai.png',
         href: 'https://hailuoai.com/',
         tags: [''],
-      },                       
+      },
+      {
+        name: 'huggingface',
+        desc: 'models,datasets',
+        logo: '/img/website/huggingface.png',
+        href: 'https://huggingface.co/',
+        tags: [''],
+      },                             
       {
         name: '动手学深度学习',
         desc: '深度学习经典图书，共两版',
