@@ -119,7 +119,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/skillshub.png',
         href: 'https://skillhub.tencent.com/',
         tags: [''],
-      },         
+      },
+      {
+        name: 'ClawHub',
+        desc: 'ClawHub',
+        logo: '/img/website/clawhub.png',
+        href: 'https://clawhub.ai/',
+        tags: [''],
+      },               
       {
         name: 'OpenClaw',
         desc: 'OpenClaw',
