@@ -112,7 +112,21 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/GoogleSkills.png',
         href: 'https://www.skills.google/',
         tags: [''],
-      },      
+      },  
+      {
+        name: 'SkillHub',
+        desc: 'SkillHub',
+        logo: '/img/website/skillshub.png',
+        href: 'https://skillhub.tencent.com/',
+        tags: [''],
+      },         
+      {
+        name: 'OpenClaw',
+        desc: 'OpenClaw',
+        logo: '/img/website/openclaw.png',
+        href: 'https://openclaw.ai/',
+        tags: [''],
+      },           
       {
         name: 'lmarena',
         desc: 'lmarena,need magic',
