@@ -39,6 +39,7 @@
     "@docusaurus/preset-classic": "^3.9.2",
     "@docusaurus/theme-live-codeblock": "^3.9.2",
     "@docusaurus/theme-search-algolia": "^3.9.2",
+    "@easyops-cn/docusaurus-search-local": "^0.55.1",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.8.1",
     "@giscus/react": "^2.0.6",

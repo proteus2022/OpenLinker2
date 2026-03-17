@@ -158,11 +158,7 @@ const config = {
       minHeadingLevel: 2,
       maxHeadingLevel: 4,
     },
-    algolia: {           //搜索组件，需要在algolia上建立自己的账号，更新下面的信息
-      appId: '08Y76T8XXU',
-      apiKey: '368583c01dd894729395e7d53ce7712e',
-      indexName: 'openlinker',
-    },
+
     zoom: {
       selector: '.markdown :not(em) > img',
       background: {
@@ -215,7 +211,23 @@ const config = {
       }),
     ],
   ],
-  themes: ['@docusaurus/theme-live-codeblock'],
+  themes: [
+    '@docusaurus/theme-live-codeblock',
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['zh', 'en'],
+        indexBlog: true,
+        indexDocs: true,
+        indexPages: true,
+        explicitSearchResultPath: true,
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 50,
+      },
+    ],
+  ],
   plugins: [
     'docusaurus-plugin-image-zoom',
     'docusaurus-plugin-sass',
