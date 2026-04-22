@@ -1614,7 +1614,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/mojie.png',
         href: 'https://mojie.kim',
         tags: [''],
-      },       
+      }, 
+      {
+        name: '良心云',
+        desc: '梯子',
+        logo: '/img/website/liangxinyun.png',
+        href: 'https://良心云.com',
+        tags: [''],
+      },            
     ],
   },     
 
