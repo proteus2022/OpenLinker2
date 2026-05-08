@@ -133,7 +133,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/openclaw.png',
         href: 'https://openclaw.ai/',
         tags: [''],
-      },           
+      },     
+      {
+        name: '古法编程',
+        desc: 'studynil',
+        logo: '/img/website/studynil.png',
+        href: 'https://www.studynil.com/',
+        tags: [''],
+      },              
       {
         name: 'lmarena',
         desc: 'lmarena,need magic',
