@@ -98,7 +98,13 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://hunyuan.tencent.com/',
         tags: [''],
       },    
-
+      {
+        name: 'CCSwitch',
+        desc: '统一管理你的AI编程CLI工作流',
+        logo: '/img/website/CCSwitch.png',
+        href: 'https://www.ccswitch.io/zh/',
+        tags: [''],
+      },
       {
         name: 'NotebookLM',
         desc: 'Google NotebookLM,need magic',
