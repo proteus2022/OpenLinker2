@@ -586,6 +586,61 @@ export const websiteData: WebsiteCategory[] = [
   },      
 
   {  
+    name: '项目申报',
+    websites: [
+      {
+        name: '山东省科学技术厅',
+        desc: '省科技厅官网',
+        logo: '/img/website/kjtsd.png',
+        href: 'http://kjt.shandong.gov.cn/',
+        tags: [''],
+      },    
+      {
+        name: '山东省工业和信息化厅',
+        desc: '官网',
+        logo: '/img/website/jnjxw.png',
+        href: 'http://gxt.shandong.gov.cn/',
+        tags: [''],
+      },  
+      {
+        name: '山东省发展和改革委员会',
+        desc: '官网',
+        logo: '/img/website/jnjxw.png',
+        href: 'http://fgw.shandong.gov.cn/',
+        tags: [''],
+      },        
+      {
+        name: '济南市工业和信息化局',
+        desc: '官网',
+        logo: '/img/website/jnjxw.png',
+        href: 'https://jnjxw.jinan.gov.cn/',
+        tags: [''],
+      },  
+
+      {
+        name: '济南市科学技术局',
+        desc: '官网',
+        logo: '/img/website/jnjxw.png',
+        href: 'https://jnsti.jinan.gov.cn/',
+        tags: [''],
+      },    
+      {
+        name: '济南市发展和改革委员会',
+        desc: '官网',
+        logo: '/img/website/jnjxw.png',
+        href: 'hhttps://jndpc.jinan.gov.cn/',
+        tags: [''],
+      },     
+      {
+        name: '历城区科技创新服务平台',
+        desc: '政雀通',
+        logo: '/img/website/lichengq.png',
+        href: 'http://lichengq.kjzxfw.com/',
+        tags: [''],
+      },                  
+    ],
+  },   
+  {  
     name: '电子书',
     websites: [
       {
