@@ -1746,6 +1746,27 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['图标', 'svg'],
       },
       {
+        name: 'manypixels',
+        desc: '一个不断更新的设计项目与美丽的SVG图像',
+        logo: '/img/website/manypixels.png',
+        href: 'https://www.manypixels.co/',
+        tags: ['图标', 'svg'],
+      },      
+      {
+        name: 'humaaans',
+        desc: '一个不断更新的设计项目与美丽的SVG图像',
+        logo: '/img/website/humaaans.png',
+        href: 'https://www.humaaans.com/',
+        tags: ['图标', 'svg'],
+      },   
+      {
+        name: 'storyset',
+        desc: '一个不断更新的设计项目与美丽的SVG图像',
+        logo: '/img/website/storyset.png',
+        href: 'https://storyset.com/',
+        tags: ['图标', 'svg'],
+      },   
+      {
         name: 'unsplash',
         desc: '免版权高清图片',
         logo: '/img/website/unsplash.png',
