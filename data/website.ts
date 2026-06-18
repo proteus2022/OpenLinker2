@@ -344,6 +344,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['GitHub', '代码托管', '项目源码', '社区'],
       },
       {
+        name: 'Zread',
+        desc: 'Github仓库分析工具，提供仓库统计、代码行数、贡献者分析等功能',
+        logo: '/img/website/zread.png',
+        href: 'https://zread.ai/',
+        tags: [''],
+      },      
+      {
         name: 'Gitee',
         desc: '蚂蚁集团全新一代数据可视化解决方案',
         logo: '/img/website/gitee.ico',
