@@ -102,6 +102,7 @@ const sidebars = {
         type: 'generated-index',
       },
       items: [
+        'opensource/Embeded_Source/tools',        
         'opensource/Embeded_Source/hardware',
         'opensource/Embeded_Source/software',
         'opensource/Embeded_Source/gui',
