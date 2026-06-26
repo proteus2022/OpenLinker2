@@ -369,7 +369,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/wokwi.png',
         href: 'https://wokwi.com/',
         tags: [''],
-      },        
+      },  
+      {
+        name: 'velxio',
+        desc: 'ESP32、Arduino仿真',
+        logo: '/img/website/velxio.png',
+        href: 'https://velxio.dev/',
+        tags: [''],
+      },               
       {
         name: 'Learn Git Branching',
         desc: 'Git使用可视化教学',
