@@ -24,6 +24,10 @@ https://datawhalechina.github.io/easy-vibe/zh-cn/
 - hello agent
 https://hello-agents.datawhale.cc/
 
+- 开源aiot平台
+https://www.cosmowander.ai/
+
+http://36.111.47.113:8090/
 
 
 **做到即查即用，能复制粘贴解决的，就绝不百度。**
