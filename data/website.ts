@@ -188,7 +188,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/huggingface.png',
         href: 'https://huggingface.co/',
         tags: [''],
-      },                             
+      },     
+      {
+        name: 'voxcpm',
+        desc: '语音合成',
+        logo: '/img/website/voxcpm.png',
+        href: 'https://voxcpm.com/zh/',
+        tags: [''],
+      },                               
       {
         name: '动手学深度学习',
         desc: '深度学习经典图书，共两版',
