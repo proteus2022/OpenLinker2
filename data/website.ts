@@ -24,6 +24,40 @@ const friends: Website[] = Friends.map((f) => {
 });
 
 export const websiteData: WebsiteCategory[] = [
+  {  
+    name: '最新资讯',
+    websites: [
+      {
+        name: '今日热榜',
+        desc: ' ',
+        logo: '/img/website/tophub.png',
+        href: 'https://tophub.today/c/tech',
+        tags: [''],
+      },    
+
+      {
+        name: 'News Now',
+        desc: ' ',
+        logo: '/img/website/newsnow.png',
+        href: 'https://newsnow.busiyi.world/',
+        tags: [''],
+      },       
+      {
+        name: 'AIHOT',
+        desc: '最新AI资讯',
+        logo: '/img/website/aihot.png',
+        href: 'https://aihot.news/all',
+        tags: [''],
+      },   
+      {
+        name: 'SoPilot',
+        desc: 'X 营销增长系统',
+        logo: '/img/website/sopilot.png',
+        href: 'https://sopilot.net/zh/hot-tweets',
+        tags: [''],
+      },
+    ],
+  },     
 
   {  
     name: '人工智能',
