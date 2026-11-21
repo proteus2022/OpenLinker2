@@ -188,7 +188,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/huggingface.png',
         href: 'https://huggingface.co/',
         tags: [''],
-      },                             
+      },     
+      {
+        name: 'voxcpm',
+        desc: '语音合成',
+        logo: '/img/website/voxcpm.png',
+        href: 'https://voxcpm.com/zh/',
+        tags: [''],
+      },                               
       {
         name: '动手学深度学习',
         desc: '深度学习经典图书，共两版',
@@ -196,7 +203,27 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://zh-v1.d2l.ai/',
         tags: [''],
       },
-                       
+      {
+        name: 'SiPEED',
+        desc: '矽速科技，AI开源软硬件及模型训练平台',
+        logo: '/img/website/sipeed.jpg',
+        href: 'https://sipeed.com/',
+        tags: [''],
+      },   
+      {
+        name: 'ultralytics',
+        desc: '提供从数据标注、模型训练到全球部署的端到端计算机视觉平台',
+        logo: '/img/website/ultralytics.png',
+        href: 'https://platform.ultralytics.com/',
+        tags: [''],
+      },         
+      {
+        name: '虹软视觉开放平台',
+        desc: '人脸识别/行为分析算法',
+        logo: '/img/website/arcsoft.png',
+        href: 'https://ai.arcsoft.com.cn/',
+        tags: [''],
+      },                          
       {
         name: 'AI图片生成',
         desc: 'AI Image Generator',
@@ -231,14 +258,7 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/100ask.png',
         href: 'https://eai.100ask.net/ELinuxAIBase/BoardIntroduction-1',
         tags: [''],
-      },     
-      {
-        name: 'SiPEED',
-        desc: '矽速科技，AI开源软硬件及模型训练平台',
-        logo: '/img/website/sipeed.jpg',
-        href: 'https://sipeed.com/',
-        tags: [''],
-      },          
+      },              
       {
         name: '嘉楠科技',
         desc: 'K230(D)/K210/K510',
@@ -295,14 +315,7 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/tsingmicro.png',
         href: 'http://www.tsingmicro.com/',
         tags: [''],
-      },  
-      {
-        name: '虹软视觉开放平台',
-        desc: '人脸识别/行为分析算法',
-        logo: '/img/website/arcsoft.png',
-        href: 'https://ai.arcsoft.com.cn/',
-        tags: [''],
-      },                    
+      },                      
     ],
   },    
   {
@@ -363,7 +376,14 @@ export const websiteData: WebsiteCategory[] = [
         logo: '/img/website/wokwi.png',
         href: 'https://wokwi.com/',
         tags: [''],
-      },        
+      },  
+      {
+        name: 'velxio',
+        desc: 'ESP32、Arduino仿真',
+        logo: '/img/website/velxio.png',
+        href: 'https://velxio.dev/',
+        tags: [''],
+      },               
       {
         name: 'Learn Git Branching',
         desc: 'Git使用可视化教学',
