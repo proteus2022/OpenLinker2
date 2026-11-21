@@ -7,7 +7,7 @@ const beian = '鲁ICP备2022025773号'
 const config = {
   title: 'AIOT',
   titleDelimiter: '-',
-  url: 'https://openlinker.cn',
+  url: 'https://openlinker.top',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'openlinker',
@@ -70,16 +70,22 @@ const config = {
           position: 'right',
           to: 'project',
         },        
-         {
-         label: '博客标签',
-          to: 'tags',
-          position: 'right',
-        },
         {
-          label: '博客归档',
-          to: 'archive',
+          label: '博客',
+          to: '/blog',
           position: 'right',
         },
+        // 标签页与归档页仍在（/tags、/archive），入口从导航栏收起
+        // {
+        //   label: '博客标签',
+        //   to: 'tags',
+        //   position: 'right',
+        // },
+        // {
+        //   label: '博客归档',
+        //   to: 'archive',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {      //底部导航栏

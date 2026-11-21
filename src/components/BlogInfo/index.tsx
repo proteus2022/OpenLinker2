@@ -65,7 +65,7 @@ export function BlogUser({
         <img className="bloginfo__img" src={logoLink} alt="logo"></img>
       </Link>
       <div>
-        <Link className="bloginfo__name" href="about">
+        <Link className="bloginfo__name" href="/about">
           {title}
         </Link>
       </div>

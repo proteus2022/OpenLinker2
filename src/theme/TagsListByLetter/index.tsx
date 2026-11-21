@@ -7,24 +7,23 @@ import styles from './styles.module.css';
 
 function TagLetterEntryItem({letterEntry}: {letterEntry: TagLetterEntry}) {
   return (
-    <article>
-      <h2>{letterEntry.letter}</h2>
-      <ul className="padding--none">
+    <div className={styles.letterGroup}>
+      <h2 className={styles.letter}>{letterEntry.letter}</h2>
+      <ul className={styles.tagList}>
         {letterEntry.tags.map((tag) => (
           <li key={tag.permalink} className={styles.tag}>
             <Tag {...tag} />
           </li>
         ))}
       </ul>
-      <hr />
-    </article>
+    </div>
   );
 }
 
 export default function TagsListByLetter({tags}: Props): JSX.Element {
   const letterList = listTagsByLetters(tags);
   return (
-    <section className="margin-vert--lg">
+    <section className={styles.tags}>
       {letterList.map((letterEntry) => (
         <TagLetterEntryItem
           key={letterEntry.letter}
@@ -36,10 +35,9 @@ export default function TagsListByLetter({tags}: Props): JSX.Element {
 }
 
 export function TagsListByFlat({tags}: Props): JSX.Element {
-  console.log(tags);
   return (
-    <section className="margin-vert--lg">
-      <ul className="padding--none">
+    <section className={styles.tags}>
+      <ul className={styles.tagList}>
         {tags.map((tag) => (
           <li key={tag.permalink} className={styles.tag}>
             <Tag {...tag} />

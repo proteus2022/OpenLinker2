@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import { PageMetadata } from '@docusaurus/theme-common';
 import Layout from '@theme/Layout';
+import Heading from '@theme/Heading';
 import WebsiteCard from './_components/WebsiteCard';
 import BackToTopButton from '@theme/BackToTopButton';
 import { websiteData } from '@site/data/website';
@@ -43,14 +44,9 @@ function CategoryList() {
       {websiteData.map((cate) => (
         <div key={cate.name}>
           <div className={styles.cateHeader}>
-            <h2 id={cate.name} className="anchor">
+            <Heading as="h2" id={cate.name}>
               {cate.name}
-              <a
-                className="hash-link"
-                href={`#${cate.name}`}
-                title={cate.name}
-              ></a>
-            </h2>
+            </Heading>
           </div>
           <section>
             <ul className={styles.websiteList}>

@@ -5,6 +5,11 @@ RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
 RewriteRule ^ https://%1%{REQUEST_URI} [L,NE,R=301]
 
+# 站点根路径直接跳到「网址导航」页
+RewriteRule ^$ /website/ [R=301,L]
+RewriteRule ^index\.html$ /website/ [R=301,L]
+RewriteRule ^en/?$ /en/website/ [R=301,L]
+
 
 # Compress HTML, CSS, JavaScript, Text, XML and fonts
 AddOutputFilterByType DEFLATE application/javascript

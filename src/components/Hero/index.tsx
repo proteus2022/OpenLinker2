@@ -42,7 +42,7 @@ function Hero() {
   
       </div>
       <div className={styles.bloghome__image}>
-        <HeroMain />
+        <HeroMain preserveAspectRatio="xMidYMid slice" />
       </div>
     </animated.div>
   );

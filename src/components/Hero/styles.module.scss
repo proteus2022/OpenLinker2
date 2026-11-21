@@ -1,6 +1,6 @@
 /* hero */
 .hero {
-  height: calc(100vh - 60px);
+  height: auto;
   width: 100vw;
   max-width: 100%;
   margin: 0;
@@ -11,7 +11,7 @@
   /* background: url("/img/hero_main.svg") no-repeat right; */
   /* background-size: 60vw; */
   letter-spacing: 0.04em;
-  padding: 0;
+  padding: clamp(2rem, 5vh, 4rem) 0;
 }
 
 .bloghome__intro {
@@ -53,13 +53,17 @@ html[data-theme='dark'] .bloghome__intro > p {
   overflow: hidden;
   width: 100%;
   z-index: 5;
+  /* 高度:宽度 = 9:16，即 16:9 的横向画幅 */
+  aspect-ratio: 16 / 9;
+  display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 .bloghome__image svg {
+  height: 100%;
   width: 100%;
-  height: auto;
+  max-width: 100%;
 }
 
 :global(.hero_main_svg__js) g,
@@ -226,15 +230,13 @@ html[data-theme='dark'] .bloghome__intro > p {
   .bloghome__image {
     width: 100%;
     justify-self: center;
-    padding-top: 4em;
-    height: 100%;
-    display: grid;
-    place-items: center;
+    padding-top: 2em;
   }
 
   .bloghome__image svg {
-    width: 90%;
-    height: auto;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
   }
 }
 
@@ -244,17 +246,23 @@ html[data-theme='dark'] .bloghome__intro > p {
   }
 
   .bloghome__image {
-    padding-top: 2em;
+    padding-top: 1em;
   }
 
   .bloghome__image svg {
-    width: 100%;
-    height: auto;
-    padding-left: 12px;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    padding-left: 0;
   }
 
   .bloghome__intro {
-    padding-top: 2em;
+    padding-top: 1em;
+  }
+
+  .bloghome__intro .hero_text {
+    font-size: 1.5rem;
+    text-align: center;
   }
 }
 

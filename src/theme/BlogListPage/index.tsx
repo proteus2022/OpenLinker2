@@ -211,6 +211,20 @@ function BlogListPageContent(props: Props) {
 }
 
 export default function BlogListPage(props: Props): JSX.Element {
+  const { permalink } = props.metadata;
+  const isFirstPage = !permalink.includes('page');
+
+  // 站点根路径不再展示博客列表，直接跳到「网址导航」页
+  React.useEffect(() => {
+    if (isFirstPage) {
+      window.location.replace(`${permalink}website/`);
+    }
+  }, [isFirstPage, permalink]);
+
+  if (isFirstPage) {
+    return null;
+  }
+
   return (
     <HtmlClassNameProvider
       className={clsx(

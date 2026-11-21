@@ -1,4 +1,37 @@
+.tags {
+  margin: 1.5rem 0 3rem;
+}
+
+.letterGroup {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  margin-bottom: 0.9rem;
+}
+
+.letter {
+  flex: none;
+  width: 1.75rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-500);
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+.tagList {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .tag {
-  display: inline-block;
-  margin: 0.5rem 0.5rem 0 1rem;
+  margin: 0;
 }
