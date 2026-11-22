@@ -29,7 +29,7 @@ export const websiteData: WebsiteCategory[] = [
     websites: [
       {
         name: '今日热榜',
-        desc: ' ',
+        desc: '咨讯汇聚',
         logo: '/img/website/tophub.png',
         href: 'https://tophub.today/c/tech',
         tags: [''],
